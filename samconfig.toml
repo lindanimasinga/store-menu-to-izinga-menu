@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "izinga-menu-updater"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-8fueix5dd7lp2"
+s3_prefix = "izinga-menu-updater"
+region = "af-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
