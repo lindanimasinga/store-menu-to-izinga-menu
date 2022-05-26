@@ -82,8 +82,8 @@ public class CLMenuToIzinga {
         clStoreProfile.setFranchiseName("chickenlicken");
         List<BusinessHours> hours = Stream.of(DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.THURSDAY, DayOfWeek.FRIDAY, DayOfWeek.SATURDAY).map(dayOfWeek ->
                 new BusinessHours(dayOfWeek,
-                        Date.from(LocalDate.now().atTime(9,0,0).toInstant(ZoneOffset.ofHours(2))),
-                        Date.from(LocalDate.now().atTime(18,0,0).toInstant(ZoneOffset.ofHours(2)))
+                        Date.from(LocalDate.now().atTime(9,0,0).toInstant(ZoneOffset.ofHours(0))),
+                        Date.from(LocalDate.now().atTime(18,0,0).toInstant(ZoneOffset.ofHours(0)))
                 )
         ).collect(Collectors.toList());
         clStoreProfile.setBusinessHours(hours);

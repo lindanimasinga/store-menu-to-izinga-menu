@@ -137,8 +137,8 @@ public class SteersMenuToIzinga {
         profile.setStockList(stockList);
         List<BusinessHours> hours = Stream.of(DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.THURSDAY, DayOfWeek.FRIDAY, DayOfWeek.SATURDAY).map(dayOfWeek ->
                             new BusinessHours(dayOfWeek,
-                                    Date.from(LocalDate.now().atTime(9,0,0).toInstant(ZoneOffset.ofHours(2))),
-                                    Date.from(LocalDate.now().atTime(18,0,0).toInstant(ZoneOffset.ofHours(2)))
+                                    Date.from(LocalDate.now().atTime(9,0,0).toInstant(ZoneOffset.ofHours(0))),
+                                    Date.from(LocalDate.now().atTime(18,0,0).toInstant(ZoneOffset.ofHours(0)))
                             )
                         ).collect(Collectors.toList());
         profile.setBusinessHours(hours);
@@ -167,7 +167,7 @@ public class SteersMenuToIzinga {
         //update menu
         List<String> tags = List.of("restaurant", "Burger", "Chips");
         steersStore.setTags(tags);
-        SteersMenuToIzinga.updateIzingaStore(steersStore, steersMenu);
+        updateIzingaStore(steersStore, steersMenu);
         steersStore.setFranchiseName("Steers");
         return steersStore;
     }
@@ -225,7 +225,7 @@ public class SteersMenuToIzinga {
         //update menu
         List<String> tags = List.of("restaurant", "Chicken", "Drinks");
         pedrosStore.setTags(tags);
-        SteersMenuToIzinga.updateIzingaStore(pedrosStore ,pedrosMenu);
+        updateIzingaStore(pedrosStore ,pedrosMenu);
         pedrosStore.setFranchiseName("Pedros");
         return pedrosStore;
     }

@@ -1,12 +1,16 @@
 package co.za.izinga.menuupdater.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.DayOfWeek;
 import java.util.Date;
 
 public class BusinessHours {
 
     private DayOfWeek day;
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX")
     private Date open;
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX")
     private Date close;
 
     public BusinessHours() {

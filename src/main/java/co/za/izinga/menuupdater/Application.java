@@ -13,6 +13,7 @@ import okhttp3.Response;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.List;
 import java.util.Objects;
 
@@ -25,7 +26,10 @@ public class Application {
     //public static final String ownerId = "6c45f9e0-dd55-4059-870c-08d578a259e6";
     public static final String izingaUrl = "https://api.izinga.co.za";
     public static final String ownerId = "650f5078-10aa-4f98-b6e3-eac2fbd276ad";
-    public static final OkHttpClient client = new OkHttpClient();
+    public static final OkHttpClient client = new OkHttpClient.Builder()
+            .connectTimeout(Duration.ofSeconds(30))
+            .callTimeout(Duration.ofSeconds(30))
+            .build();
     public static final ObjectMapper mapper  = new ObjectMapper()
             .setDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss"))
             .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
