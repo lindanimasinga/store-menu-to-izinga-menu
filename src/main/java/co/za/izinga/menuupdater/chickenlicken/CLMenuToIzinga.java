@@ -90,8 +90,8 @@ public class CLMenuToIzinga {
         return clStoreProfile;
     }
 
-    private static String cleanName(String code) {
-        return code.replace("circle-", "")
+    public static String cleanName(String code) {
+        return code == null ? "" : code.replace("circle-", "")
                 .replace("-ce", "")
                 .replace("-g-Mix-eg-", "")
                 .replace("-g-Mix-eg", "")

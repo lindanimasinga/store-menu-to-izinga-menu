@@ -2,6 +2,7 @@ package co.za.izinga.menuupdater;
 
 import co.za.izinga.menuupdater.chickenlicken.CLMenuToIzinga;
 import co.za.izinga.menuupdater.model.StoreProfile;
+import co.za.izinga.menuupdater.nandos.NandosToIzinga;
 import co.za.izinga.menuupdater.service.IzingaService;
 import co.za.izinga.menuupdater.steers.SteersMenuToIzinga;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -102,6 +103,22 @@ public class Application {
                         IzingaService.updateStoreOnIzinga(chickenLickenStore);
                         System.out.println(chickenLickenStore.getName());
                         System.out.println(mapper.writeValueAsString(chickenLickenStore));
+                        System.out.println("=============");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
+
+        //Nandos
+        izingaStores.stream()
+                .filter(store -> store.getName().toLowerCase().contains("nandos"))
+                .forEach(nandosStore -> {
+                    try {
+                        NandosToIzinga.loadNandosLMenu(nandosStore);
+                        //update store on izinga
+                        IzingaService.updateStoreOnIzinga(nandosStore);
+                        System.out.println(nandosStore.getName());
+                        System.out.println(mapper.writeValueAsString(nandosStore));
                         System.out.println("=============");
                     } catch (IOException e) {
                         e.printStackTrace();
