@@ -110,6 +110,7 @@ public class NandosToIzinga {
         SelectionOption option = new SelectionOption();
         option.setName(optionName);
         option.setSelected("None");
+        selection.add("None");
         option.setValues(selection);
         return option;
     }

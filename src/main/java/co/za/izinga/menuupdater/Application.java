@@ -23,8 +23,8 @@ public class Application {
     public static final String STEERS_URL = "https://app.steers.co.za/management/api";
     public static final String DEBON_URL = "https://app.debonairspizza.co.za/management/api";
     public static final String PEDROS_URL = "https://app.pedroschicken.co.za/management/api";
-    //public static final String izingaUrl = "https://api-uat.izinga.co.za";
-    //public static final String ownerId = "6c45f9e0-dd55-4059-870c-08d578a259e6";
+    /*public static final String izingaUrl = "https://api-uat.izinga.co.za";
+    public static final String ownerId = "6c45f9e0-dd55-4059-870c-08d578a259e6";*/
     public static final String izingaUrl = "https://api.izinga.co.za";
     public static final String ownerId = "650f5078-10aa-4f98-b6e3-eac2fbd276ad";
     public static final OkHttpClient client = new OkHttpClient.Builder()
@@ -45,7 +45,7 @@ public class Application {
         response.close();
         System.out.println("Starting menu update....");
 
-        //Steers
+        /*//Steers
         izingaStores.stream()
                 .filter(store -> store.getName().toLowerCase().contains("steers"))
                 .forEach(steersStore -> {
@@ -108,7 +108,7 @@ public class Application {
                         e.printStackTrace();
                     }
                 });
-
+*/
         //Nandos
         izingaStores.stream()
                 .filter(store -> store.getName().toLowerCase().contains("nandos"))
