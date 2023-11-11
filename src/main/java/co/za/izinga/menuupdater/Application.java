@@ -1,6 +1,7 @@
 package co.za.izinga.menuupdater;
 
 import co.za.izinga.menuupdater.chickenlicken.CLMenuToIzinga;
+import co.za.izinga.menuupdater.kfc.KfcToIzingaMenu;
 import co.za.izinga.menuupdater.model.StoreProfile;
 import co.za.izinga.menuupdater.nandos.NandosToIzinga;
 import co.za.izinga.menuupdater.service.IzingaService;
@@ -12,6 +13,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -23,6 +25,8 @@ public class Application {
     public static final String STEERS_URL = "https://app.steers.co.za/management/api";
     public static final String DEBON_URL = "https://app.debonairspizza.co.za/management/api";
     public static final String PEDROS_URL = "https://app.pedroschicken.co.za/management/api";
+    public static final String WIMPY_URL = "https://app.wimpy.co.za/management/api";
+    public static final String FISHAWAYS = "https://app.fishaways.co.za/management/api";
     /*public static final String izingaUrl = "https://api-uat.izinga.co.za";
     public static final String ownerId = "6c45f9e0-dd55-4059-870c-08d578a259e6";*/
     public static final String izingaUrl = "https://api.izinga.co.za";
@@ -45,7 +49,7 @@ public class Application {
         response.close();
         System.out.println("Starting menu update....");
 
-        /*//Steers
+        //Steers
         izingaStores.stream()
                 .filter(store -> store.getName().toLowerCase().contains("steers"))
                 .forEach(steersStore -> {
@@ -108,7 +112,8 @@ public class Application {
                         e.printStackTrace();
                     }
                 });
-*/
+
+
         //Nandos
         izingaStores.stream()
                 .filter(store -> store.getName().toLowerCase().contains("nandos"))
@@ -118,13 +123,66 @@ public class Application {
                         //update store on izinga
                         IzingaService.updateStoreOnIzinga(nandosStore);
                         System.out.println(nandosStore.getName());
-                        System.out.println(mapper.writeValueAsString(nandosStore));
+                        var writer = new FileWriter(nandosStore.getName() + ".json");
+                        writer.write(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(nandosStore));
+                        writer.close();
                         System.out.println("=============");
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                 });
 
+        //wimpy
+        izingaStores.stream()
+                .filter(store -> store.getName().toLowerCase().contains("wimpy"))
+                .forEach(wimpyStore -> {
+                    try {
+                        SteersMenuToIzinga.loadWimpy(wimpyStore);
+                        //update store on izinga
+                        IzingaService.updateStoreOnIzinga(wimpyStore);
+                        System.out.println(wimpyStore.getName());
+                        System.out.println(mapper.writeValueAsString(wimpyStore));
+                        System.out.println("=============");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
+
+        //fishaways
+        izingaStores.stream()
+                .filter(store -> store.getName().toLowerCase().contains("fishaways"))
+                .forEach(fishaways -> {
+                    try {
+                        SteersMenuToIzinga.loadFishaways(fishaways);
+                        //update store on izinga
+                        IzingaService.updateStoreOnIzinga(fishaways);
+                        System.out.println(fishaways.getName());
+                        System.out.println(mapper.writeValueAsString(fishaways));
+                        System.out.println("=============");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
+
+
+        //kfc
+
+
+        izingaStores.stream()
+                .filter(store -> store.getName().toLowerCase().contains("kfc"))
+                .forEach(kfc -> {
+                    try {
+                        KfcToIzingaMenu.loadKfcMenu(kfc);
+                        //update store on izinga
+                        IzingaService.updateStoreOnIzinga(kfc);
+                        System.out.println(kfc.getName());
+                        System.out.println(mapper.writeValueAsString(kfc));
+                        System.out.println("=============");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
         Objects.requireNonNull(response.body()).close();
+
     }
 }

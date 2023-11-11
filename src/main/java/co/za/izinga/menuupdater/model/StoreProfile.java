@@ -43,6 +43,7 @@ public class StoreProfile extends Profile implements GeoPoint {
     private double standardDeliveryKm;
     private double ratePerKm;
     private String franchiseName;
+    private String externalId;
 
     public StoreProfile() {
         super();
@@ -353,6 +354,14 @@ public class StoreProfile extends Profile implements GeoPoint {
 
     public String getFranchiseName() {
         return franchiseName;
+    }
+
+    public String getExternalId() {
+        return externalId;
+    }
+
+    public void setExternalId(String externalId) {
+        this.externalId = externalId;
     }
 
     public enum AVAILABILITY {

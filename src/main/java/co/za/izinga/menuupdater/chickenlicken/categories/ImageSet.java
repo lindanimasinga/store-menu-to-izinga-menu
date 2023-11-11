@@ -1,22 +1,44 @@
+
 package co.za.izinga.menuupdater.chickenlicken.categories;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import co.za.izinga.menuupdater.nandos.model.NandosMenu;
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonPropertyOrder({
+    "data",
+    "links"
+})
+
 public class ImageSet {
-    private DAT data;
-    private ImageSetLinks links;
 
-    public DAT getData() {
-        return data;
+    private Image productImage;
+
+    public Image getProductImage() {
+        return productImage;
     }
 
-    public void setData(DAT value) {
-        this.data = value;
+    public void setProductImage(Image productImage) {
+        this.productImage = productImage;
     }
 
-    public ImageSetLinks getLinks() {
-        return links;
-    }
+    public static class Image {
+        private String url;
 
-    public void setLinks(ImageSetLinks value) {
-        this.links = value;
+        public String getUrl() {
+            return url;
+        }
+
+        public void setUrl(String url) {
+            this.url = url;
+        }
     }
 }

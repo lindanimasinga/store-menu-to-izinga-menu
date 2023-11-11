@@ -26,6 +26,7 @@ public class Stock {
     @NotNull(message = "mandatorySelection not valid")
     private List<SelectionOption> mandatorySelection;
     private List<SelectionOption> optionalSelection;
+    private String externalUrlPath;
 
     public Stock() {
     }
@@ -157,5 +158,13 @@ public class Stock {
     @Override
     public int hashCode() {
         return Objects.hash(name);
+    }
+
+    public void setExternalUrlPath(String externalUrlPath) {
+        this.externalUrlPath = externalUrlPath;
+    }
+
+    public String getExternalUrlPath() {
+        return externalUrlPath;
     }
 }

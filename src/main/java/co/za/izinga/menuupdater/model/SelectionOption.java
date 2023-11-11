@@ -3,6 +3,7 @@ package co.za.izinga.menuupdater.model;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class SelectionOption {
 
@@ -24,6 +25,10 @@ public class SelectionOption {
 
     public List<String> getValues() {
         return values;
+    }
+
+    public List<String> titleValuesPair() {
+        return values.stream().map(i -> name + " " + i).collect(Collectors.toList());
     }
 
     public void setValues(List<String> values) {

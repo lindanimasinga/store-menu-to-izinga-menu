@@ -7,7 +7,6 @@ import co.za.izinga.menuupdater.model.StoreProfile;
 import co.za.izinga.menuupdater.nandos.model.NandosMenu;
 import okhttp3.Request;
 import okhttp3.Response;
-import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
 import java.time.DayOfWeek;
@@ -54,7 +53,8 @@ public class NandosToIzinga {
             stockItem.setQuantity(100);
 
             List<SelectionOption> mandatorySelection = product.relatedProducts == null ? Collections.emptyList() : product.relatedProducts.stream()
-                    .flatMap(relatedProduct -> getSelectionOptions(nandosMenu, relatedProduct).stream())
+                    .map(relatedProduct -> getSelectionOptions(nandosMenu, relatedProduct))
+                    .filter(Objects::nonNull)
                     .collect(Collectors.toList());
 
             stockItem.setMandatorySelection(mandatorySelection);
@@ -80,18 +80,25 @@ public class NandosToIzinga {
         return nandosStore;
     }
 
-    private static List<SelectionOption> getSelectionOptions(NandosMenu nandosMenu, NandosMenu.RelatedProduct relatedProduct) {
-        if(relatedProduct.relatedProducts == null) return List.of();
+    private static SelectionOption getSelectionOptions(NandosMenu nandosMenu, NandosMenu.RelatedProduct relatedProduct) {
+        if(relatedProduct.relatedProducts == null || relatedProduct.price > 0) return null;
 
-        if (relatedProduct.relatedProducts.stream().allMatch(it -> it.relatedProducts == null || it.relatedProducts.isEmpty())) {
-            SelectionOption option = createASelectionOption(nandosMenu, relatedProduct);
-            return option == null ? List.of() : List.of(option);
+        if (relatedProduct.relatedProducts.stream().anyMatch(it -> it.relatedProducts == null || it.relatedProducts.isEmpty())) {
+            return createASelectionOption(nandosMenu, relatedProduct);
         }
 
-        return relatedProduct.relatedProducts.stream()
-                .flatMap( rt -> rt.relatedProducts != null ? rt.relatedProducts.stream() : Stream.of(rt))
-                .flatMap(it -> getSelectionOptions(nandosMenu, it).stream())
-                .collect(Collectors.toList());
+        var options= createASelectionOption(nandosMenu, relatedProduct);
+        if(options == null)  return null;
+
+        options.setValues(relatedProduct.relatedProducts.stream()
+                //.flatMap( rt -> rt.relatedProducts != null ? rt.relatedProducts.stream() : Stream.of(rt))
+                .map(it -> getSelectionOptions(nandosMenu, it))
+                .map(it -> it == null? options : it)
+               // .filter(it -> it.getValues().toString().contains("Choose Your Flavour"))
+                .flatMap(it -> it.titleValuesPair().stream())
+                .collect(Collectors.toList()));
+        options.setSelected(options.getValues().get(0));
+        return options;
     }
 
     private static SelectionOption createASelectionOption(NandosMenu nandosMenu, NandosMenu.RelatedProduct relatedProduct) {
@@ -104,20 +111,32 @@ public class NandosToIzinga {
                         .anyMatch(item -> item.productDefinitionId.equals(it.id))
                 )
                 .map(it -> it.name)
+                .filter(it -> !shouldExclude(it))
                 .collect(Collectors.toList());
 
+        if (selection.isEmpty()) return null;
         if (shouldExclude(optionName)) return null;
+
         SelectionOption option = new SelectionOption();
         option.setName(optionName);
-        option.setSelected("None");
-        selection.add("None");
         option.setValues(selection);
         return option;
     }
 
     private static boolean shouldExclude(String optionName) {
-        return exclusions.contains(optionName.toLowerCase());
+        return exclusions.stream().anyMatch( m -> optionName.toLowerCase().contains(m.toLowerCase()));
     }
 
-    private static final List<String> exclusions = List.of("add a drink & save");
+    private static final List<String> exclusions = List.of("add a drink & save",
+            "half & half flavour",
+            "add extras",
+            "add more sauce",
+            "add more flavour",
+            "No No's",
+            "none",
+            "Choose Your Piece",
+            "add starter livers?",
+            "No Extras",
+            "Special Instruction",
+            "special instructions");
 }
