@@ -2,6 +2,7 @@ package co.za.izinga.menuupdater;
 
 import co.za.izinga.menuupdater.chickenlicken.CLMenuToIzinga;
 import co.za.izinga.menuupdater.kfc.KfcToIzingaMenu;
+import co.za.izinga.menuupdater.mcdonals.McDonaldsToIzinga;
 import co.za.izinga.menuupdater.model.StoreProfile;
 import co.za.izinga.menuupdater.nandos.NandosToIzinga;
 import co.za.izinga.menuupdater.service.IzingaService;
@@ -166,8 +167,6 @@ public class Application {
 
 
         //kfc
-
-
         izingaStores.stream()
                 .filter(store -> store.getName().toLowerCase().contains("kfc"))
                 .forEach(kfc -> {
@@ -179,6 +178,22 @@ public class Application {
                         System.out.println(mapper.writeValueAsString(kfc));
                         System.out.println("=============");
                     } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                });
+
+        //mcdonals
+        izingaStores.stream()
+                .filter(store -> store.getName().toLowerCase().contains("mcdonald"))
+                .forEach(mcd -> {
+                    try {
+                        McDonaldsToIzinga.loadMcdonalsMenu(mcd);
+                        //update store on izinga
+                        IzingaService.updateStoreOnIzinga(mcd);
+                        System.out.println(mcd.getName());
+                        System.out.println(mapper.writeValueAsString(mcd));
+                        System.out.println("=============");
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 });

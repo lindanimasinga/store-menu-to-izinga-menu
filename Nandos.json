@@ -1,6 +1,6 @@
 {
   "id" : "24d7e517-959e-498a-a376-069cde9d7674",
-  "modifiedDate" : "2023-07-19T05:45:45",
+  "modifiedDate" : "2023-11-16T09:07:42",
   "name" : "Nandos",
   "surname" : null,
   "description" : "Spicy But Chilled ",
@@ -24,7 +24,7 @@
   "shortName" : "nandos",
   "ownerId" : "650f5078-10aa-4f98-b6e3-eac2fbd276ad",
   "stockList" : [ {
-    "id" : "7288d8a1-deab-452d-8d73-0af618a56431",
+    "id" : "ecefe568-5bb3-4541-a9c6-6d747e70182a",
     "name" : "1.5L Stoney",
     "description" : "",
     "detailedDescription" : null,
@@ -39,7 +39,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6780a425-7758-4ede-9eb5-3e1366da5396",
+    "id" : "6b78bab3-e08e-4a16-8f7b-16281c5c86bc",
     "name" : "Creamy Corn Salad (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -54,7 +54,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "54f18664-a21c-4aa6-aade-783809651b27",
+    "id" : "82372fb2-03a0-4b7d-bb05-cb21c8c55c03",
     "name" : "Flame-grilled Mielie (Corn) Sharing",
     "description" : "Flame-grilled and basted!",
     "detailedDescription" : null,
@@ -74,7 +74,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "23766386-880c-41c3-9174-e0b148378ae0",
+    "id" : "8742fb45-8e24-4874-9f68-1b83393b935b",
     "name" : "The Great Pretender Cheese Carnival Pita (on its own)",
     "description" : "Plant-based protein in a pita perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -94,7 +94,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "3120f600-fdcb-4f8c-a829-cfedef7d2815",
+    "id" : "338ab585-2946-415b-b968-89af4e76b9d3",
     "name" : "Fanta Orange (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -109,7 +109,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "a53bd753-416d-44d4-91e9-d321e0d41b32",
+    "id" : "42fa3ab1-0b83-48fc-8a2f-57c566231c42",
     "name" : "1.5L Creme Soda",
     "description" : "",
     "detailedDescription" : null,
@@ -124,7 +124,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8b9b0c3d-2dca-41e8-9e49-2638a4540b44",
+    "id" : "b80ffd02-3891-44d3-ba07-902ad3e0bf70",
     "name" : "Hotpot with Spicy Rice",
     "description" : "Tender pulled chicken & vegetables in Nando's unique PERi-PERi recipe on rice with tomato relish",
     "detailedDescription" : null,
@@ -144,7 +144,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "10fccf89-edb6-4aae-b4ce-500a4ba200ad",
+    "id" : "cc5a848b-9047-48cd-8223-c0e87fbe340d",
     "name" : "Big on veg platter",
     "description" : "4 Veg Pitas, 4 Halloumi & Roast Veg Pitas, 2 Sharing Wedges, 4 Flame-grilled Mielies cut into 3 (12 portions). Includes 1 PERinaise dip and 1 Creamy dip. All platters serve 6-8 people.",
     "detailedDescription" : null,
@@ -169,7 +169,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e7bbe01d-d2c7-493f-be5e-16192d1a275c",
+    "id" : "4f4b2394-6f1c-469c-bf75-13fbb915ac78",
     "name" : "Cheese Carnival Pita (on its own)",
     "description" : "Tender chicken strips in a pita perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -189,7 +189,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b8ff9bd7-47b8-484e-a412-515103f081ad",
+    "id" : "9f6b0a5c-d4d8-493d-ac4b-ada546a747c8",
     "name" : "Coke No Sugar (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -204,7 +204,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "006e4b8c-720b-478a-8d57-826de1bd069b",
+    "id" : "e704178a-76c9-4aa9-8eb8-c24bf22e957c",
     "name" : "1/4 Chicken & Hotpot Pap Grande Meal",
     "description" : "1/4 Chicken with Pap, topped with Pulled Chicken, veg and tomato relish",
     "detailedDescription" : null,
@@ -229,7 +229,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4d010b5b-26a3-4e96-8a09-3708ddd48628",
+    "id" : "bb03e969-261b-492e-b560-614594812e08",
     "name" : "Chicken Strips (on their own)",
     "description" : "",
     "detailedDescription" : null,
@@ -249,7 +249,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "665052a5-8351-46f7-b9a2-f2788d57e72e",
+    "id" : "c32a407e-e00c-4238-86df-e40e7481974f",
     "name" : "Halloumi Veg & Rice",
     "description" : "",
     "detailedDescription" : null,
@@ -269,7 +269,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c50b9b0e-252f-4930-80ec-7893322b53e0",
+    "id" : "960ff05f-52c7-422b-abfb-1561f320f361",
     "name" : "More to share platter",
     "description" : "One and a 1/2 full chickens ( cut into 12), 2 Flame-grilled Mielies cut into 3 (6 portions), 4 Kids Burgers, 2 Sharing Wedges. Includes 1 PERinaise dip and 1 Creamy dip. All platters serve 6-8 people.",
     "detailedDescription" : null,
@@ -294,7 +294,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "68a9639c-fbc6-4314-bf7c-4294cde9cb4c",
+    "id" : "64d86609-8f5a-49a6-a5d3-d00f93bb52fc",
     "name" : "The Great Pretender Wrap + any Single Side",
     "description" : "Plant-based protein, tomato, lettuce and cucumber mixed in a Wrap served with a single side of your choice",
     "detailedDescription" : null,
@@ -319,7 +319,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0be03995-0ae5-46cb-b4fe-e136b800c5fc",
+    "id" : "1dfbd5de-f70b-4549-88de-439571e22ba7",
     "name" : "Full Chicken + any 4 Sharing Sides",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe with 4 sharing sides of your choice",
     "detailedDescription" : null,
@@ -364,7 +364,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b91d553f-2c68-4218-a050-ef0fbe97a27d",
+    "id" : "96575776-a700-424d-8787-2c371fd7a140",
     "name" : "Veg Burger (on its own)",
     "description" : "A Veg burger prepared in Nando's unique PERi-PERi recipe in a freshly baked Nando's Roll (veg patty consists of Chickpeas, Butternut, Red Kidney Beans, Spinach & flame-grilled Corn)",
     "detailedDescription" : null,
@@ -384,7 +384,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "d1ac2aca-7bd7-4d4d-91df-d9a23de86c64",
+    "id" : "6e56ff2f-49cb-4bfb-a36b-eb56697a046d",
     "name" : "Coleslaw (Sharing)",
     "description" : "Sliced and mixed cabbage in delicious Nando's mayo",
     "detailedDescription" : null,
@@ -399,7 +399,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "33668d0b-d43c-41cd-b84f-5dca41ecae66",
+    "id" : "b47c953a-689c-4851-8fcc-27372b249905",
     "name" : "Casa Pap & Nando's Relish (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -424,7 +424,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "a2bc896f-25be-41bd-b2a7-e11f55158eb8",
+    "id" : "bb79f0ea-279c-4937-bede-05a58e77b449",
     "name" : "Double Veg Burger",
     "description" : "A double Veg burger prepared in Nando's unique PERi-PERi recipe in a freshly baked Nando's Roll",
     "detailedDescription" : null,
@@ -444,7 +444,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1ac7d7cf-0b3d-40f2-aa46-04c0bb17784e",
+    "id" : "db9e778c-5a80-45a3-8647-90c5455e234e",
     "name" : "XHot PERi-PERi Sauce",
     "description" : "",
     "detailedDescription" : null,
@@ -459,7 +459,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c7bb96e0-90cc-4de0-bf78-36ea40fd9d90",
+    "id" : "de98863a-e5bd-48e6-9548-9d16856c3fe7",
     "name" : "Halloumi & Veg Roll",
     "description" : "Roast Veg with grilled Halloumi prepared in a unique Nando's PERi-PERi in a pita",
     "detailedDescription" : null,
@@ -479,7 +479,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8af47bd2-3760-40b6-a450-e3a758a385db",
+    "id" : "02646860-8a59-47fa-be69-d948511f5f19",
     "name" : "PERinaise, Avo & Caramelised Onion Burger (on its own)",
     "description" : "A tender burger blended with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -504,7 +504,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "99787c3b-98d4-4faa-8339-ea412cca9eaa",
+    "id" : "13c7d712-4893-425d-a580-a56bebe78008",
     "name" : "Creamy Dip",
     "description" : "A smooth, creamy dip without the fire",
     "detailedDescription" : null,
@@ -519,7 +519,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8eabc800-3976-4d7c-994c-a2d45587a698",
+    "id" : "66667ecb-b6e0-4f2b-a7c6-4be05992fdf8",
     "name" : "1/4 Chicken & Hotpot Rice Grande Meal",
     "description" : "1/4 Chicken with Spicy Rice, topped with Pulled Chicken, veg and tomato relish",
     "detailedDescription" : null,
@@ -544,7 +544,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1b0fc757-0fe8-40ae-9e2b-c948f87a2058",
+    "id" : "2a07847b-d892-4b9c-b5ce-d3968aa3b21e",
     "name" : "The Great Pretender Hotpot with Spicy Rice",
     "description" : "Plant based protein & vegetables in Nando's unique PERi-PERi recipe on rice with tomato relish",
     "detailedDescription" : null,
@@ -564,7 +564,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "01976e18-84d3-4ae2-b612-0e173f37760d",
+    "id" : "3fc7a274-bdff-4b1b-ae99-5eadc2a6009e",
     "name" : "Plain Wedges (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -579,7 +579,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "de642eb2-53e0-4af5-99fa-765bf0a7a4d9",
+    "id" : "c7d4ee4c-5351-4238-a0fd-77ed7dbd422e",
     "name" : "Full Chicken + any 1 Sharing Side",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe with 1 sharing side of your choice",
     "detailedDescription" : null,
@@ -609,7 +609,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "444049d8-e65e-4ab7-95d7-0b39c367903d",
+    "id" : "52b1656e-489b-4f4d-9055-9103f111fb97",
     "name" : "Nandinos Chicken Burger & Chips (Kids)",
     "description" : "A Tender fillet  in Nando's unique not-so-hot Tangy Tomato PERi-PERi recipe in a kiddy bun and served with a kids portion of chips/wedges",
     "detailedDescription" : null,
@@ -634,7 +634,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8c0bd230-8775-4f6a-a0bb-e203d9a9053e",
+    "id" : "ded71b29-46f6-42f5-bc65-42dd7d978fd7",
     "name" : "Add Chicken",
     "description" : "",
     "detailedDescription" : null,
@@ -659,7 +659,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ba7af979-b327-4fad-abfd-80eac976be8a",
+    "id" : "64d1c002-2e2d-4236-b929-68801c1f8062",
     "name" : "Halloumi & Veg Wrap (on its own)",
     "description" : "Delicious Halloumi & Roast Veg prepared in Nando's unique PERi-PERi recipe in a Wrap",
     "detailedDescription" : null,
@@ -684,7 +684,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f5f50309-cd1c-46fe-8e35-2087064ae2fa",
+    "id" : "4da495df-ea05-435f-b35f-bec764abbf30",
     "name" : "The more the PERi-er platter",
     "description" : "Two full chickens (cut into 16), 16 Winglets, 2 Flame-grilled Mielies cut into 3 (6 portions), 2 Sharing Wedges. Includes 1 PERinaise dip and 1 Creamy dip. All platters serve 6-8 people.",
     "detailedDescription" : null,
@@ -709,7 +709,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "2e993bb6-0b79-401e-bbc5-ae41bbcde183",
+    "id" : "984bf866-3bf4-4ecf-af6a-b14214e4299a",
     "name" : "Chicken Burger + any Single Side",
     "description" : "A tender burger prepared in Nando's unique PERi-PERi recipe served with a single side of your choice",
     "detailedDescription" : null,
@@ -734,7 +734,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "56d09711-6c20-4ca2-af1c-4254f6b30a1b",
+    "id" : "028316d1-583f-4350-855a-76ef51ada077",
     "name" : "Churros & Chocolate Sauce",
     "description" : "2 Decadent Portuguese doughnuts dusted in cinnamon-sugar and served with a chocolate sauce",
     "detailedDescription" : null,
@@ -754,7 +754,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c11c37e1-3a80-429a-b04d-96d51df29a0d",
+    "id" : "a30972d7-572b-4746-b388-3d3e6fc940a0",
     "name" : "Great Pretender (on its own)",
     "description" : "",
     "detailedDescription" : null,
@@ -774,7 +774,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "bcae2b96-f528-4563-96bb-39c7411b8502",
+    "id" : "ea911aa7-b735-4623-850a-f5909620cc40",
     "name" : "1/4 Chicken + any Single Side",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe with a single side of your choice",
     "detailedDescription" : null,
@@ -799,7 +799,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "a4cf3db2-efbe-4ff5-b28e-63c93cedb9e7",
+    "id" : "732f90ee-cbad-4df9-82e9-4282b22f0a7e",
     "name" : "PERi-Spinach (Sharing)",
     "description" : "In your favourite basting",
     "detailedDescription" : null,
@@ -819,7 +819,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c4f51555-3724-4aa5-8eae-c5ea17f9ab75",
+    "id" : "4981c193-1894-459f-87e4-9ebb35123351",
     "name" : "4 Nando's Rolls",
     "description" : "",
     "detailedDescription" : null,
@@ -854,7 +854,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "37d3f839-bd72-4576-af1d-eb51c52018da",
+    "id" : "9009cf0a-4db3-4962-8147-a34bdf4638df",
     "name" : "Manga Bubble",
     "description" : "Mango popping bobas in a sweet pink grapefruit-flavoured Designer Drink, for mouth-watering bursts of tropical flavour",
     "detailedDescription" : null,
@@ -869,7 +869,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "bf71073e-f733-49be-94ac-8a381035337a",
+    "id" : "2ee7b731-990e-43f9-98d6-5f3fd294c379",
     "name" : "Creme Soda (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -884,7 +884,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1b6c6df4-dbd4-4a60-bf0d-e339716f5e1f",
+    "id" : "4c36021f-504a-4b10-96e0-17d7a92b93d5",
     "name" : "The Great Pretender Strips & Spicy Rice",
     "description" : "Plant-based protein prepared in Nando's unique PERi-PERi recipe served on a bed of Spicy Rice",
     "detailedDescription" : null,
@@ -904,7 +904,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "23a3a223-60a1-4f50-ad34-bff0a3af2665",
+    "id" : "1a87ba22-9efb-4e94-aa6a-b2230de745b3",
     "name" : "Chicken Prego (on its own)",
     "description" : "A saucy chicken prego fillet topped with grilled onions and a garlic buttered Nando's roll",
     "detailedDescription" : null,
@@ -929,7 +929,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "a569ceca-1f15-4010-92c3-a45b61a3156e",
+    "id" : "37c22492-c30f-4574-8e08-008eea733220",
     "name" : "Double Veg Burger + any Single Side",
     "description" : "A double Veg burger prepared in Nando's unique PERi-PERi recipe served with a single side of your choice",
     "detailedDescription" : null,
@@ -954,7 +954,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "d2c264ad-6c5a-4e36-80f4-e9b55cebead8",
+    "id" : "a174e07d-23e9-4314-87f4-6e4971bc3fa8",
     "name" : "The Great Pretender Grilled Salad",
     "description" : "Plant-based protein prepared in Nando's unique PERi-PERi recipe served on a bed of fresh Lettuce, Tomato, Cucumbers, Onions and Olives",
     "detailedDescription" : null,
@@ -974,7 +974,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "fd94e8df-67ea-4229-a32e-297d3c7274c0",
+    "id" : "5da585cc-d957-4d5c-b175-f97ce200484f",
     "name" : "PERi-tato Salad (Sharing)",
     "description" : "Warm potato salad smothered in our famous PERinaise, finished off with herb sprinkles",
     "detailedDescription" : null,
@@ -989,7 +989,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "91dc602c-fc3a-44b7-81dd-bee3374ca844",
+    "id" : "a87ec886-5c43-44c6-b17e-a9db206c94a8",
     "name" : "Rubro Peach",
     "description" : "Our signature, delicious and refreshing peach-flavoured iced tea",
     "detailedDescription" : null,
@@ -1004,7 +1004,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ea12972d-2800-422a-91fd-ca8c1ca293c1",
+    "id" : "263cc728-00a2-4dc3-a9f1-764f0d6f888d",
     "name" : "6 PERi-crusted Winglets + Single Chips",
     "description" : "6 Marinated and flame-grilled winglets dipped in PERi-PERi spice served with a single Chips",
     "detailedDescription" : null,
@@ -1029,7 +1029,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "dcc4abf3-ad27-4754-88ca-d6982ba0cb3d",
+    "id" : "d61ad9d0-a8c7-41d2-b8c2-fe16237aec5d",
     "name" : "Avo & Halloumi Boujee Bowl with Pulled Chicken",
     "description" : "Tender Pulled Chicken in Nando's unique PERi-PERi recipe on Spicy Rice with grilled onion, creamy avo and grilled Halloumi",
     "detailedDescription" : null,
@@ -1049,7 +1049,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "531d4228-c1ac-4599-a915-2e50afa70182",
+    "id" : "cc8268d7-4586-40ba-9ef0-da10e8ee7901",
     "name" : "Veg Wrap (on its own)",
     "description" : "A Veg patty prepared in Nando's unique PERi-PERi recipe in a Wrap",
     "detailedDescription" : null,
@@ -1074,7 +1074,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8ce0a1b5-8a14-4f52-8053-4e179f57d485",
+    "id" : "46d656a7-29f8-4574-908f-4b581d78beaa",
     "name" : "Sprite No Sugar (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -1089,7 +1089,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "502fb490-dbc8-4e15-b088-088088a2720a",
+    "id" : "89f7748a-86bc-48ce-a551-37a51a9f3b3b",
     "name" : "The Grande Salad (Veg)",
     "description" : "A fresh Nando's salad, topped with a Veg patty prepared in Nando's unique PERi-PERi recipe, creamy avo, feta and garlic & herb sweetcorn",
     "detailedDescription" : null,
@@ -1114,7 +1114,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b47dd63b-be93-415f-a61e-d1809fd35eeb",
+    "id" : "02ddf2d4-adae-4c69-ae22-2e6da5955fa4",
     "name" : "Casa Pap & Nando's Relish (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -1139,7 +1139,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "87da9787-c0ff-4a2d-b53d-5ee0a452c678",
+    "id" : "b040c62d-cea8-41e5-966d-bd925dc79e75",
     "name" : "Pulled Chicken and Cheese Pita (on its own)",
     "description" : "Tender pulled chicken prepared in Nando's unique PERi-PERi recipe in a Pita",
     "detailedDescription" : null,
@@ -1159,7 +1159,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f5761f26-6767-45fe-8ef3-e77513f31b75",
+    "id" : "f52ec434-302f-44ce-9403-d18f10b043fd",
     "name" : "The Great Pretender Galinha Picada Soup + Roll",
     "description" : "A hearty Soup with Plant-based protein, leeks, carrots, and potatoes, finished off with a hint of rosemary and thyme. Served with a fresh Nando's roll.",
     "detailedDescription" : null,
@@ -1171,11 +1171,6 @@
     "discountPerc" : 0.0,
     "images" : [ ],
     "mandatorySelection" : [ {
-      "name" : "CM - PB Soup Galinha Picada",
-      "values" : [ "PB Soup Galinha Picado Choose Your Flavour Xtra Hot", "PB Soup Galinha Picado Choose Your Flavour No Sauce", "PB Soup Galinha Picado Choose Your Flavour Mild", "PB Soup Galinha Picado Choose Your Flavour Lemon & Herb", "PB Soup Galinha Picado Choose Your Flavour Mozam Paprika", "PB Soup Galinha Picado Choose Your Flavour Hot", "PB Soup Galinha Picado Choose Your Flavour Tangy Tomato", "PB Soup Galinha Picado PB Soup Galinha Picado How d'ya like it?", "PB Soup Galinha Picado PB Soup Galinha Picado Choose Your Flavour" ],
-      "selected" : "PB Soup Galinha Picado Choose Your Flavour Xtra Hot",
-      "price" : 0.0
-    }, {
       "name" : "Choose Your Roll",
       "values" : [ "Garlic Roll with Cheese", "Nando's Roll", "Garlic Roll" ],
       "selected" : null,
@@ -1184,7 +1179,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b77c13c1-b88f-4d16-93f4-1dcd1bd07503",
+    "id" : "b44c719b-f6f2-40c1-b066-898365867201",
     "name" : "Powerade Mountain Blast",
     "description" : "",
     "detailedDescription" : null,
@@ -1199,7 +1194,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ea52e4f0-0961-46c1-97ce-38532540f249",
+    "id" : "fdbe04b3-2b1d-4af6-b94b-26bd1ed6b643",
     "name" : "Cappy Juice Orange Mango",
     "description" : "",
     "detailedDescription" : null,
@@ -1214,7 +1209,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6b7f6ba1-e73e-43de-8163-f0b23ef0f15f",
+    "id" : "755fa529-705f-44fb-a31e-6e05e4cce4be",
     "name" : "Pineapple",
     "description" : "",
     "detailedDescription" : null,
@@ -1229,7 +1224,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "55fe6461-3020-44b0-9b70-2fdd15fd4b7c",
+    "id" : "808775ce-bee7-4a03-acfd-df52347b8169",
     "name" : "Stoney (Buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -1244,7 +1239,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e52ab1dc-c1a9-4e60-9d46-87333b004027",
+    "id" : "6dad5b8b-f116-4c1d-aea2-e101076566e6",
     "name" : "The Great Pretender PERinaise, Avo & Caramelised Onion Wrap (on its own)",
     "description" : "Plant-based protein in a Wrap with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -1269,7 +1264,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b5b2dd4e-376c-4ae6-9242-08f1c82ddb3b",
+    "id" : "8db895b1-5a5a-40a9-bdfb-be4348459948",
     "name" : "Nando's Salad (Single)",
     "description" : "A Fresh mix of Lettuce, Tomato, Cucumbers, Onions and Olives",
     "detailedDescription" : null,
@@ -1289,7 +1284,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "649418fa-5dad-4d60-b2ed-4a9536dc268e",
+    "id" : "c31cdd4b-619d-480f-8881-17f2d9ee2dd9",
     "name" : "Veggie Patty  (on its own)",
     "description" : "",
     "detailedDescription" : null,
@@ -1309,7 +1304,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "83d1b517-1ed5-46df-863d-d529b1aea66b",
+    "id" : "b2c139ef-323c-4b14-8f11-ea233e8bb999",
     "name" : "Mild PERi-PERi Sauce",
     "description" : "",
     "detailedDescription" : null,
@@ -1324,7 +1319,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "d1336774-ad88-4117-90e8-b76b4559ebe2",
+    "id" : "2ae4aee2-551d-496b-85e4-a25eaa107ac2",
     "name" : "Chicken Burger",
     "description" : "A tender burger prepared in Nando's unique PERi-PERi recipe in a freshly baked Nando's Roll",
     "detailedDescription" : null,
@@ -1349,7 +1344,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "412beca3-ce94-4ebd-83e8-9c1bb5614f35",
+    "id" : "51230634-6fa5-4069-abaa-645a95309274",
     "name" : "Full Chicken + any 2 Sharing Sides Promo Meal",
     "description" : "flame-grilled chicken in Nando's unique PERi-PERi recipe with 2 Sharing Sides of your choice. Ts&Cs apply",
     "detailedDescription" : null,
@@ -1384,7 +1379,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1996454a-9b55-455b-8796-9c2e727592c3",
+    "id" : "dce6819a-1e01-480c-baa8-d8e604508912",
     "name" : "Garlic Roll with Cheese",
     "description" : "",
     "detailedDescription" : null,
@@ -1399,7 +1394,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "66b75ecc-343d-40e1-aeaa-f6326e472a9e",
+    "id" : "a17cadc6-a821-4769-a424-24168adb1e47",
     "name" : "Veg Cheese Carnival Burger (on its own)",
     "description" : "A Veg burger perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -1419,7 +1414,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "70cb0546-307a-4ca4-aeb1-d9b217bf037e",
+    "id" : "d35ce3b9-4ed6-4214-b7fe-12def8823654",
     "name" : "Double Chicken Burger",
     "description" : "A tender double burger prepared in Nando's unique PERi-PERi recipe in a freshly baked Nando's Roll",
     "detailedDescription" : null,
@@ -1444,7 +1439,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f0718e1e-5b56-4bc0-9625-6eb0779886ad",
+    "id" : "cffe1d02-adbb-4651-afc6-7ded72607618",
     "name" : "PERi-PERi Chips (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -1459,7 +1454,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "40e0fd21-cf75-49fb-a34e-33dcc14beb17",
+    "id" : "2e41e424-56f0-4fed-afbd-3abe09e5e094",
     "name" : "Plain Wedges (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -1474,7 +1469,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "85d4b6ab-d2e0-4da2-a538-6aa718946720",
+    "id" : "86202337-7a65-4572-b2bb-6b6d7e8c119d",
     "name" : "Spicy Rice with Nando's Relish (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -1489,7 +1484,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b3271a9a-9185-43fb-8975-d6c7af48fda5",
+    "id" : "a280a83f-9515-4a9a-b95b-3d8470a48db7",
     "name" : "Red Bull (Sugarfree)",
     "description" : "",
     "detailedDescription" : null,
@@ -1504,7 +1499,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b0c40a92-539a-46a2-a69e-34cc27c27e24",
+    "id" : "7b6eca96-c096-4637-83ac-2703b59b5595",
     "name" : "Chicken Wrap (on its own)",
     "description" : "Tender chicken strips prepared in Nando's unique PERi-PERi recipe in a Wrap",
     "detailedDescription" : null,
@@ -1529,7 +1524,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "23d676d4-4a90-41a5-85b1-87f4a180a600",
+    "id" : "9c915c6c-5ad8-45ff-b2d4-80e2c65a9093",
     "name" : "Powerade Naartjie",
     "description" : "",
     "detailedDescription" : null,
@@ -1544,7 +1539,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ac886c8f-abfe-4589-9866-bb4ef6bcadec",
+    "id" : "70b418b1-91e0-4ae4-a0b8-394df501ff63",
     "name" : "Spicy Rice (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -1559,7 +1554,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "be586826-80e1-4e43-b57a-fefaa87ff2be",
+    "id" : "260993a7-d159-443f-908a-afae0240ecd7",
     "name" : "Valpre Sparkling",
     "description" : "",
     "detailedDescription" : null,
@@ -1574,7 +1569,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ebf0a8dd-63e5-454c-958b-db325533355c",
+    "id" : "710f65a7-68c5-4582-bc5d-a66b8692ff62",
     "name" : "Veg & Rice",
     "description" : "",
     "detailedDescription" : null,
@@ -1589,7 +1584,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "eb7e0acd-1d60-4126-847e-6ef3b1d62508",
+    "id" : "6dd4a446-427c-46d2-9619-01eee1f17139",
     "name" : "10 Regular Winglets (on their own)",
     "description" : "10 Marinated and flame-grilled winglets",
     "detailedDescription" : null,
@@ -1609,7 +1604,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c87f0faf-9ad1-49fd-9e67-29d8f24062a7",
+    "id" : "7a75af61-752c-4f5b-9922-911ce5a5be0f",
     "name" : "Rubro Lemon",
     "description" : "",
     "detailedDescription" : null,
@@ -1624,7 +1619,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8750133e-b740-4b57-99f3-71c5f08bdef6",
+    "id" : "369089eb-614c-48c8-99a2-4e284d9714e9",
     "name" : "Spicy Rice with Nando's Relish (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -1639,7 +1634,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "2dddbd13-5f25-4224-8837-9b04d18ced89",
+    "id" : "fd01c1ee-b1e6-45c7-8c4d-754fc979cc05",
     "name" : "Festa Fries",
     "description" : "Nando’s chips topped with tender pulled chicken prepared in Nando's unique PERi-PERi recipe served with sautéed onions and smothered in cheese sauce",
     "detailedDescription" : null,
@@ -1659,7 +1654,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ecfe82f9-04c6-472e-8977-9a201d056aad",
+    "id" : "815573e1-9126-4707-b622-b93e8412f554",
     "name" : "PERinaise, Avo & Caramelised Onion Pita + any Single Side",
     "description" : "Tender chicken strips in a pita with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -1684,7 +1679,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f09bc8af-84d4-4e7b-82e8-03e88fb08034",
+    "id" : "740da7a5-f6ea-4e89-bb6f-d80b8ebfaf48",
     "name" : "Cheese Carnival Burger (on its own)",
     "description" : "A tender burger perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -1709,7 +1704,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c2b75768-5871-421e-9fa8-8dab2482ac2e",
+    "id" : "8a6e1def-bec4-4cb0-a1d5-241a4d30ce2d",
     "name" : "The Great Pretender Avo & Halloumi Boujee Bowl",
     "description" : "Plant-based protein in Nando's unique PERi-PERi recipe on Spicy Rice with grilled onion, creamy avo and grilled Halloumi",
     "detailedDescription" : null,
@@ -1729,7 +1724,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4fa9f298-1ec1-4b40-9a01-184008704cb6",
+    "id" : "f98b5e71-3dbd-4d42-ad43-dc277174744d",
     "name" : "Grilled Chicken Salad",
     "description" : "Tender chicken strips prepared in Nando's unique PERi-PERi recipe served on a bed of fresh Lettuce, Tomato, Cucumbers, Onions and Olives",
     "detailedDescription" : null,
@@ -1749,7 +1744,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "a0adde47-20c6-42a1-a8a6-5dae3afd1026",
+    "id" : "d300e374-2fb3-444d-b2e0-01295633f97e",
     "name" : "Spicy Rice (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -1764,7 +1759,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "9d75c373-5ba9-43a9-9c6d-c6688838ecce",
+    "id" : "050d344e-9f51-436b-89d5-51c4b435f022",
     "name" : "Olives",
     "description" : "",
     "detailedDescription" : null,
@@ -1779,7 +1774,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "db88e907-511e-443e-bea6-b7dfccb7cff2",
+    "id" : "745dee0c-2310-4aaf-9caf-dc343fcc0260",
     "name" : "Veg Burger + any Single Side",
     "description" : "A Veg burger prepared in Nando's unique PERi-PERi recipe served with a single side of your choice  (veg patty consists of Chickpeas, Butternut, Red Kidney Beans, Spinach & flame-grilled Corn)",
     "detailedDescription" : null,
@@ -1804,7 +1799,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6ee9642f-6a1a-48c4-9280-274ead3bdc6b",
+    "id" : "924baa69-ae83-4d12-bb5f-4ca748dab62d",
     "name" : "Garlic Roll",
     "description" : "",
     "detailedDescription" : null,
@@ -1819,7 +1814,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ececb442-c16d-4225-a775-03857d7ce835",
+    "id" : "9eca6a9b-4d8c-4145-8f92-346c11cd1682",
     "name" : "The Great Pretender PERinaise, Avo & Caramelised Onion Pita + any Single Side",
     "description" : "Plant based protein in a pita with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -1844,7 +1839,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "3a3f599d-5004-4650-8b2b-825b4f2fe559",
+    "id" : "768c6fae-4156-43bf-99f9-bd90abbd3c2b",
     "name" : "Avo",
     "description" : "",
     "detailedDescription" : null,
@@ -1859,7 +1854,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "aa5e9e19-09b1-4a79-bf5c-8524c2154b31",
+    "id" : "51054d8e-f8bc-497d-b2d0-aea4ef643e97",
     "name" : "Nandinos Winglets & Chips (Kids)",
     "description" : "4 Chicken winglets in Nando's unique not-so-hot Tangy Tomato PERi-PERi recipe served with a kids portion of chips/wedges",
     "detailedDescription" : null,
@@ -1884,7 +1879,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "475a5aaf-37ca-4a5a-a808-3fef1ca9bd72",
+    "id" : "22c09fc9-243e-467d-ba61-e76ce2877d50",
     "name" : "Stoney No Sugar(Buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -1899,7 +1894,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "2f7abdd6-abeb-4838-8d7b-d9153fc15ec2",
+    "id" : "40b80a95-6de8-42e7-b0d1-9ab6adb88fa1",
     "name" : "The Great Pretender and Cheese Wrap + any Single Side",
     "description" : "Plant-based protein with cheese in a Wrap served with a single side of your choice",
     "detailedDescription" : null,
@@ -1924,7 +1919,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b6d022f3-e280-4a79-8d93-34dbe3f48551",
+    "id" : "71b9b351-62bf-4efd-92a6-03c550f55470",
     "name" : "Red Bull",
     "description" : "",
     "detailedDescription" : null,
@@ -1939,7 +1934,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0efac864-4e11-4b20-912b-7883f5aaacb4",
+    "id" : "787dfc02-a547-4e5b-a51c-5ba2b875000f",
     "name" : "1.5L Coke",
     "description" : "",
     "detailedDescription" : null,
@@ -1954,7 +1949,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0f835562-7e83-4959-a287-a23729ed166e",
+    "id" : "aa91199f-cb85-43b5-b9c0-cbab5bf6ce3b",
     "name" : "The Great Pretender Cheese Pita + any Single Side",
     "description" : "Plant-based protein prepared in Nando's unique PERi-PERi recipe in a Pita with Cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -1979,7 +1974,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "de26d242-abb9-4fea-9732-a3e4c76e9e55",
+    "id" : "c6b6c4a2-5ce7-4aa3-b2c8-bddf5d55f1e5",
     "name" : "The Great Pretender Festa Roll + Single Side",
     "description" : "Saucy plant-based protein in a flavour of your choice, topped with grilled onions, crispy chips and creamy cheese sauce, heaped onto a Nando’s garlic buttered roll with Single Side",
     "detailedDescription" : null,
@@ -2004,7 +1999,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "40b79bcd-6ee7-436f-a7ab-95d67642408d",
+    "id" : "5fd257db-a246-4b14-88ee-dc83af27d290",
     "name" : "PERinaise, Avo & Caramelised Onion Wrap + any Single Side",
     "description" : "Tender chicken strips in a Wrap with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -2029,7 +2024,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "89dc164f-0fad-4a29-afaa-0267b793e72f",
+    "id" : "87abdf5c-38c3-45ad-9147-0e1f5cdc49e2",
     "name" : "Grande Cabo Sosatie Meal",
     "description" : "2 succulent Flame-grilled Shisanyama Chicken Sosaties, Sharing Chips and a Garlic Roll.",
     "detailedDescription" : null,
@@ -2059,7 +2054,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "3475e700-935f-4c6e-8f6a-daa0c19f240f",
+    "id" : "6be74def-9da7-497b-8e96-d7f7923a0afa",
     "name" : "Roasted Corn & Red Pepper Boujee Bowl with Halloumi",
     "description" : "Grilled Halloumi prepared in Nando's unique PERi-PERi recipe on a bed of Spicy Rice, with seasoned Corn, roasted Red Peppers and fresh Baby Spinach leaves",
     "detailedDescription" : null,
@@ -2079,7 +2074,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "55ac7472-d51c-472c-b201-b4a119d66be4",
+    "id" : "418ed644-69f6-491c-92ed-a3492b1cbd0e",
     "name" : "The Great Pretender Pita (on its own)",
     "description" : "Plant-based protein prepared in Nando's unique PERi-PERi recipe in a Pita",
     "detailedDescription" : null,
@@ -2099,7 +2094,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "971012f5-9496-4eeb-a34a-7d30ec7d3f68",
+    "id" : "7248fc96-1c04-4a1f-8a43-11c49c3e7e0e",
     "name" : "Galinha Picada Soup + Roll",
     "description" : "A hearty Soup with Pulled Chicken, leeks, potatoes and carrots with your choice of Nando’s flavour. Served with a Nando’s Roll",
     "detailedDescription" : null,
@@ -2111,11 +2106,6 @@
     "discountPerc" : 0.0,
     "images" : [ "https://images.nandos.co.za/MW_IMAGES/f98b3bea-883a-4894-87d7-8cea29248c86" ],
     "mandatorySelection" : [ {
-      "name" : "CM - Soup Galinha Picada",
-      "values" : [ "Soup Galinha Picado Choose Your Flavour Xtra Hot", "Soup Galinha Picado Choose Your Flavour No Sauce", "Soup Galinha Picado Choose Your Flavour Mild", "Soup Galinha Picado Choose Your Flavour Lemon & Herb", "Soup Galinha Picado Choose Your Flavour Mozam Paprika", "Soup Galinha Picado Choose Your Flavour Hot", "Soup Galinha Picado Choose Your Flavour Tangy Tomato", "Soup Galinha Picado Soup Galinha Picado How d'ya like it?", "Soup Galinha Picado Soup Galinha Picado Choose Your Flavour" ],
-      "selected" : "Soup Galinha Picado Choose Your Flavour Xtra Hot",
-      "price" : 0.0
-    }, {
       "name" : "Choose Your Roll",
       "values" : [ "Garlic Roll with Cheese", "Nando's Roll", "Garlic Roll" ],
       "selected" : null,
@@ -2124,7 +2114,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f0bd048c-0cdf-49e0-8e08-ff9083e52efa",
+    "id" : "61fd02fc-04b5-499a-8a66-10929e46f758",
     "name" : "6 Regular Winglets + Single Chips",
     "description" : "6 Marinated and flame-grilled winglets served with a single Chips",
     "detailedDescription" : null,
@@ -2149,7 +2139,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "73680a1c-9e7d-42c2-aede-750dd462f171",
+    "id" : "e3acfe5a-2404-4101-b9fe-5a9e21f83abb",
     "name" : "The Great Pretender PERinaise, Avo & Caramelised Onion Wrap + any Single Side",
     "description" : "Plant-based protein in a Wrap with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -2174,7 +2164,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1ee8092d-8d94-4294-a2a5-4111f70c493d",
+    "id" : "b4795240-e38d-47ee-8b1f-c76264cf2eef",
     "name" : "Hot PERi-PERi Sauce",
     "description" : "",
     "detailedDescription" : null,
@@ -2189,7 +2179,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "11433e40-4740-424f-85ee-3535f1944fb0",
+    "id" : "f6320a4b-048e-4302-93c1-e9b605cc9690",
     "name" : "Cappy Juice Orange",
     "description" : "",
     "detailedDescription" : null,
@@ -2204,7 +2194,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ee1a17b0-c6b6-4a0a-ba11-708f145fbb8f",
+    "id" : "db92e292-f4b2-45ab-86ba-c6676d1c0476",
     "name" : "The Great Pretender Hotpot & Casa Pap",
     "description" : "Plant based protein & vegetables in Nando's unique PERi-PERi recipe on Casa Pap with tomato relish",
     "detailedDescription" : null,
@@ -2224,12 +2214,12 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "841766ae-9593-4ffe-87ad-121eaa8962a7",
+    "id" : "6cfe93c8-0d90-4127-8f87-744dcfeae52a",
     "name" : "Beetroot & Feta Salad (Sharing)",
     "description" : "Zesty beetroot served with creamy feta",
     "detailedDescription" : null,
     "tags" : null,
-    "group" : "Beetroot & Feta",
+    "group" : null,
     "position" : 10000,
     "quantity" : 100,
     "storePrice" : 44.0,
@@ -2244,7 +2234,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "9eaadd19-ab51-42b9-9602-4c1761b4704b",
+    "id" : "772c8638-9493-47d5-b75d-a04086e31e56",
     "name" : "Chicken Strips, Veg & Spicy Rice",
     "description" : "Tender chicken strips & roasted vegetables in Nando's unique PERi-PERi recipe served on a bed of Spicy Rice",
     "detailedDescription" : null,
@@ -2264,7 +2254,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "83f7f1ca-bc96-4e27-84a9-bda6c06b5227",
+    "id" : "546c07d5-1e6a-4273-8070-416bbdadd2f4",
     "name" : "Halloumi",
     "description" : "",
     "detailedDescription" : null,
@@ -2279,7 +2269,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e140706b-7ea9-47e6-a186-a34c260b1492",
+    "id" : "c4da31bc-3de6-4415-bf94-bbe177bac4db",
     "name" : "Da Malva Pudding",
     "description" : "South Africa's favourite decadent sponge cake soaked in a sweet & sticky apricot sauce and served with caramelised popcorn and a dash of creamy custard",
     "detailedDescription" : null,
@@ -2299,7 +2289,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f926d053-1685-4096-9f92-7aee3779d363",
+    "id" : "d96a3094-0cf4-4d75-ac94-5d702e96d62a",
     "name" : "Chicken Pita (on its own)",
     "description" : "Tender chicken strips prepared in Nando's unique PERi-PERi recipe in a Pita",
     "detailedDescription" : null,
@@ -2319,7 +2309,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8c0e7fad-4d0b-4547-bc77-35c8c63ff6cd",
+    "id" : "fe443321-44b0-4be1-b4c9-3c263d089f99",
     "name" : "The Grande Salad (Chicken)",
     "description" : "A fresh grand Nando's Salad, generously topped with tender pulled chicken prepared in Nando's unique PERi-PERi recipe, creamy avo, feta and garlic and herb sweetcorn",
     "detailedDescription" : null,
@@ -2344,7 +2334,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b6346634-971c-40f0-b7fa-cfd57a10f854",
+    "id" : "bc975fa8-4323-4ce3-9d8d-140ecc25112f",
     "name" : "Hotpot with Casa Pap",
     "description" : "Tender pulled chicken & vegetables in Nando's unique PERi-PERi recipe on Casa Pap with tomato relish",
     "detailedDescription" : null,
@@ -2364,7 +2354,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6f8e1463-a573-45fb-b623-a824ea1455cc",
+    "id" : "8e80d742-a939-44aa-9aab-3179fb640f3c",
     "name" : "Veg PERinaise, avo & Caramelised Onion Pita + any Single Side",
     "description" : "A Veg patty in a pita with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -2389,7 +2379,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "655fc266-0898-42a9-9a9e-dfaa987d36f6",
+    "id" : "70507d72-9c13-42a7-843c-565f97c6e7a1",
     "name" : "Agua Caipirinha",
     "description" : "A refreshing beverage of sweet and tangy lemon & lime notes, evokes memories of fresh ocean adventures",
     "detailedDescription" : null,
@@ -2404,7 +2394,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "d24bfcdb-c976-4369-9fb1-7ddf07d90520",
+    "id" : "fbb872f1-a3b5-4f8b-810a-797cff769c91",
     "name" : "Pulled Chicken and Cheese Wrap (on its own)",
     "description" : "Tender pulled chicken prepared in Nando's unique PERi-PERi recipe in a Pita",
     "detailedDescription" : null,
@@ -2424,7 +2414,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4decbbcf-db6f-4fdb-85d3-60fff8126c08",
+    "id" : "163737c9-e321-4c1c-90d8-9a72b0ac4eec",
     "name" : "Veg Cheese Carnival Burger + any Single Side",
     "description" : "A Veg burger perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -2449,7 +2439,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "641573c6-19b5-491c-9b0b-a366cefc1bc2",
+    "id" : "a917c4a9-3e19-4733-8d79-045f9353ff2e",
     "name" : "Hands-on delicious platter",
     "description" : "3 Pulled Chicken Wraps (cut into 6), 3 Chicken Wraps (cut into 6), 2 Sharing Wedges, 16 Winglets, 2 Flame-grilled Mielies cut into 3 (6 portions). Includes 1 PERinaise dip and 1 Creamy dip. All platters serve 6-8 people.",
     "detailedDescription" : null,
@@ -2474,7 +2464,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "2ff8b23f-a649-4bf8-893b-a31905406fec",
+    "id" : "d52e7323-621a-4bcc-81d5-b939b95fea02",
     "name" : "Plain Chips (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -2489,7 +2479,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b715e4cd-640f-4a9c-8920-20e77586712f",
+    "id" : "ac6b217c-58ab-4694-bc31-8300224507bb",
     "name" : "Veg Wrap + any Single Side",
     "description" : "A Veg patty prepared in Nando's unique PERi-PERi recipe in a Wrap served with a single side of your choice",
     "detailedDescription" : null,
@@ -2514,7 +2504,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0ef4d0de-1c2a-4e52-88f7-6c14d8d47bb0",
+    "id" : "01534d6f-bb6e-4f42-ad74-ed306f1d7eed",
     "name" : "500ml Soda",
     "description" : "",
     "detailedDescription" : null,
@@ -2534,7 +2524,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c98570f2-b56d-4e49-be1f-00b947f164e9",
+    "id" : "8716ac30-d70c-4a35-889c-9788e67edd56",
     "name" : "Cabo Sosatie + Single Chips",
     "description" : "2 succulent Flame-grilled Shisanyama Chicken Sosaties served with a single portion of Chips",
     "detailedDescription" : null,
@@ -2559,7 +2549,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "49f6f411-e1bf-4e57-8a2c-5e223b62a590",
+    "id" : "bde6f7cc-fbd9-49f3-8604-35d77a19ccf0",
     "name" : "Festa Roll + Single Side",
     "description" : "Saucy Pulled Chicken in a flavour of your choice, topped with grilled onions, crispy chips and creamy cheese sauce, heaped onto a Nando’s garlic buttered roll with Single Side",
     "detailedDescription" : null,
@@ -2584,7 +2574,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b242d7fe-6f8f-496c-b831-5b35f97c0d6d",
+    "id" : "034bd7b1-1e63-4359-97c8-f7e520f7010a",
     "name" : "The Great Pretender Sandwich with Cheese (own its own)",
     "description" : "Plant-based protein sautéed with onions on a fresh Nando's bun",
     "detailedDescription" : null,
@@ -2604,7 +2594,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "34954f20-261e-4cd8-b6f6-c287320b1795",
+    "id" : "54211f73-9e1a-490b-b6e2-1ecadf6880e3",
     "name" : "The Great Pretender Roasted Corn & Red Pepper Boujee Bowl",
     "description" : "Plant-based protein prepared in Nando's unique PERi-PERi recipe on a bed of Spicy Rice, with seasoned Corn, roasted Red Peppers and fresh Baby Spinach leaves",
     "detailedDescription" : null,
@@ -2624,7 +2614,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "358c267f-b892-4b26-95d6-bb2945830149",
+    "id" : "87eab0fa-0670-4344-b1e2-f9aedf01f6ac",
     "name" : "Starter Livers & Casa Pap",
     "description" : "A starter portion of tender chicken Livers in Nando's unique PERi-PERi recipe served with a single side of Casa Pap",
     "detailedDescription" : null,
@@ -2644,7 +2634,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "cb2d6038-d3ea-4386-b393-6d27f112c1c6",
+    "id" : "81b7581a-02ab-4faa-93aa-999d261137bf",
     "name" : "The Great Pretender PERinaise, Avo & Caramelised Onion Pita (on its own)",
     "description" : "Plant-based protein in a pita with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -2664,7 +2654,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1d2e8ead-d179-4564-ad81-c6c25e04e91f",
+    "id" : "584ad34a-cc36-44ad-b465-1581b5706b61",
     "name" : "1.5L Coke NSNC",
     "description" : "",
     "detailedDescription" : null,
@@ -2679,7 +2669,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8d65e1a3-1b1f-46f2-95d2-bd842e23fb83",
+    "id" : "e7e7c642-20b7-4c05-be6b-10ba40e5e0b9",
     "name" : "Festa Roll (on its own)",
     "description" : "Saucy Pulled Chicken in a flavour of your choice, topped with grilled onions, crispy chips and creamy cheese sauce, heaped onto a Nando’s garlic buttered roll",
     "detailedDescription" : null,
@@ -2699,7 +2689,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ec3d74c3-460b-4554-bf5f-2ef67365fc97",
+    "id" : "60e2b6fa-cb79-4d1a-82d2-803e7697ae9e",
     "name" : "Coke Light (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -2714,7 +2704,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b73917ae-c07f-4f45-bb70-117f305f97cc",
+    "id" : "802c37c7-ec10-41a5-b277-290e3cb10ae4",
     "name" : "The Great Pretender Cheese Carnival Wrap (on its own)",
     "description" : "Plant-based protein in a Wrap perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -2739,7 +2729,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "9d7d096a-a3f5-4e44-b808-c275e87c87f7",
+    "id" : "cafc5fba-2ce3-4e0e-bcaa-330527b8cecf",
     "name" : "1/2 Chicken + any Single Side",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe with a single side of your choice",
     "detailedDescription" : null,
@@ -2764,7 +2754,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ea49ba23-fe36-4d68-a8a9-884c085e4c39",
+    "id" : "00ac8469-d5d8-407a-90f9-a1d58594f422",
     "name" : "The Great Pretender Wrap (on its own)",
     "description" : "Plant-based protein, tomato, lettuce and cucumber mixed in a Wrap",
     "detailedDescription" : null,
@@ -2789,7 +2779,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ee842d9c-7ed7-4d60-825d-8e840038d20f",
+    "id" : "12fb7312-9a14-460f-ad97-2d973bb9a565",
     "name" : "Pulled Chicken Sandwich with cheese + any Single side",
     "description" : "Tender Pulled Chicken sautéed with onions on a fresh Nando's bun served with a single side of your choice",
     "detailedDescription" : null,
@@ -2814,7 +2804,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "32f42698-01a3-4231-9fb0-de5d9fff75ed",
+    "id" : "5f707786-d4d1-4a81-9198-6757f5b4c58c",
     "name" : "The Great Pretender Strips, Veg & Spicy Rice",
     "description" : "Plant-based protein & roasted vegetables in Nando's unique PERi-PERi recipe served on a bed of  Spicy Rice",
     "detailedDescription" : null,
@@ -2834,7 +2824,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "54ab0306-59eb-4588-bb66-ee9a7af54872",
+    "id" : "3c1a122b-726a-415c-bf7d-3f4dcfb2b600",
     "name" : "10 PERi-crusted Winglets (on their own)",
     "description" : "10 Marinated and flame-grilled winglets dipped in PERi-PERi spice",
     "detailedDescription" : null,
@@ -2849,7 +2839,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ebaa1efe-c00b-478a-b615-2076566a104b",
+    "id" : "060d4202-c9ea-44bb-af8f-726d1d09da48",
     "name" : "Veggie veggie nice platter",
     "description" : "2 Veg Burgers, 2 Halloumi & Roast Veg Wraps, 2 Halloumi & Roast Veg Pitas, 2 Sharing Wedges, 4 Flame-grilled Mielies cut into 3 (12 portions). Includes 1 PERinaise dip and 1 Creamy dip. All platters serve 6-8 people.",
     "detailedDescription" : null,
@@ -2874,7 +2864,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "249075f5-898f-4152-886b-2b0bb958cee2",
+    "id" : "9250d2d8-70b0-445c-8c72-6ca7c6c30cc0",
     "name" : "1/4 Chicken (on its own)",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe",
     "detailedDescription" : null,
@@ -2894,7 +2884,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c4a3af6a-a4a8-4dd1-b75c-78496b139b89",
+    "id" : "2be2bf0d-e7c3-40e5-bba8-8d54c4217d7d",
     "name" : "Veg PERinaise, Avo & Caramelised Onion Burger (on its own)",
     "description" : "A Veg burger blended with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -2919,7 +2909,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "687ae222-f059-4d95-97e5-7163659bbf85",
+    "id" : "024c9f0b-2efe-4074-a3b0-c4d74b132c78",
     "name" : "Bar.One Shake",
     "description" : "A rich and creamy chocolate shake flavoured with Nestlé Bar.One",
     "detailedDescription" : null,
@@ -2934,7 +2924,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "00ed47e9-58a2-451e-8d28-571214c68c08",
+    "id" : "acbadc5d-98e7-412a-8164-896df9aa3179",
     "name" : "Nando's Roll",
     "description" : "",
     "detailedDescription" : null,
@@ -2949,7 +2939,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b020dbd8-a234-4450-8842-9ffe075114e8",
+    "id" : "b68029e2-e437-41aa-b7c7-3bb663391f72",
     "name" : "Nandinos Strips & Chips (Kids)",
     "description" : "Tender chicken strips in Nando's unique not-so-hot Tangy Tomato PERi-PERi recipe served with a kids portion of chips/wedges",
     "detailedDescription" : null,
@@ -2974,7 +2964,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "5f09694e-6538-4aa8-8b59-2a40cfc6c5b0",
+    "id" : "6d9e2e91-45d4-4084-8760-fc53fe95fc57",
     "name" : "The Great Pretender Sandwich with Cheese + any Single Side",
     "description" : "Plant-based protein sautéed with onions and served on a fresh Nando's roll and with any single side of your choice",
     "detailedDescription" : null,
@@ -2999,7 +2989,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "66c46c64-9d94-4172-8e4a-cb88d0be3dc1",
+    "id" : "bfd3e2ca-49ce-42d9-9748-7617bc71db51",
     "name" : "Tropical Sunset",
     "description" : "A passionate blend of granadilla and lemonade with a burst of blissful tropical flavour",
     "detailedDescription" : null,
@@ -3014,7 +3004,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "3df9d63b-0901-4c7c-a9ae-fe04f4fdbaaf",
+    "id" : "6c792113-c220-48ef-9d41-8f1d726ccf5d",
     "name" : "Veg PERinaise, Avo & Caramelised Onion Burger + any Single Side",
     "description" : "A Veg burger blended with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -3039,7 +3029,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "58f13cc8-199b-4971-ad66-0dc5025f9f23",
+    "id" : "4861d347-538e-42da-81b9-ceaa269f75c2",
     "name" : "PERi-PERi Wedges (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -3054,7 +3044,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "71d2ddaf-d87f-400d-86b4-d4715ce6665b",
+    "id" : "3e533ce9-3212-488d-8e07-b18251e4600d",
     "name" : "Veg Pita (on its own)",
     "description" : "Veg patty prepared in Nando's unique PERi-PERi recipe in a Pita",
     "detailedDescription" : null,
@@ -3074,7 +3064,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f1e23665-b65d-431d-a851-470500924a35",
+    "id" : "eb5e122e-85ae-4031-bc20-23abbf27006e",
     "name" : "Sprite (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -3089,7 +3079,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "77da7158-e50f-4a8d-b71e-1d61d935f0ab",
+    "id" : "c335fb1a-d49f-4b86-8403-183e32b1364e",
     "name" : "Cheese Carnival Burger + any Single Side",
     "description" : "A tender burger perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -3114,7 +3104,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f202e7e3-30e5-4bf1-a7e4-20593527386a",
+    "id" : "6b54b6ab-c7c9-483a-a721-ae788b236efc",
     "name" : "Flame-grilled Mielie (Corn) Single",
     "description" : "Flame-grilled and basted!",
     "detailedDescription" : null,
@@ -3134,7 +3124,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "60a9600e-cd54-449e-947f-ea40399b0781",
+    "id" : "ca8f28b4-46df-41ee-ae7a-ba7144546e13",
     "name" : "1/4 Chicken, Single Chips & a Nando's Roll",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe with a Single Chips & a Nando's Roll",
     "detailedDescription" : null,
@@ -3164,7 +3154,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "304073e1-ea21-4d10-8723-b16ecb72d43c",
+    "id" : "cfb92c87-cf93-480e-8178-10d282fdb22a",
     "name" : "Nando's Salad (Sharing)",
     "description" : "A Fresh mix of Lettuce, Tomato, Cucumbers, Onions and Olives",
     "detailedDescription" : null,
@@ -3184,7 +3174,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0ea318cc-0228-47f5-a87d-2c95c19ebf1a",
+    "id" : "1145f3fe-559d-4e6c-a0b3-66a272075a65",
     "name" : "6 Regular Winglets (on their own)",
     "description" : "6 Marinated and flame-grilled winglets",
     "detailedDescription" : null,
@@ -3204,7 +3194,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0ddd62ed-062d-4506-b156-5693bbbf00fa",
+    "id" : "316378fc-1756-4a30-a254-60e4df9d8b52",
     "name" : "Rubro Berry",
     "description" : "",
     "detailedDescription" : null,
@@ -3219,7 +3209,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4e52f65d-44c2-4e38-b7f2-198383005397",
+    "id" : "9f75690b-7236-46be-af16-ec876ba2b654",
     "name" : "Pulled Chicken and Cheese Pita + any Single Side",
     "description" : "Tender pulled chicken prepared in Nando's unique PERi-PERi recipe in a Pita served with any single side of your choice",
     "detailedDescription" : null,
@@ -3244,7 +3234,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "72bf01f7-e610-4f47-8456-909973d4ab66",
+    "id" : "24b85300-fa2d-4ed0-8969-e49cf6abf87c",
     "name" : "The Great Pretender Festa Fries",
     "description" : "Nando’s chips topped with plant-based protein prepared in Nando's unique PERi-PERi recipe served with sautéed onions and smothered in cheese sauce",
     "detailedDescription" : null,
@@ -3264,7 +3254,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "2408688c-c203-44ae-a63e-04529e975f54",
+    "id" : "12a04606-f43f-4d55-9318-8515dd77ff75",
     "name" : "1.5L Coke No Sugar",
     "description" : "",
     "detailedDescription" : null,
@@ -3279,7 +3269,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "5726a01f-05f3-4611-bb23-c7e3a8e93fbe",
+    "id" : "ba434acd-7ba1-440d-b7ed-5780dab3b74a",
     "name" : "PERinaise Original",
     "description" : "The creaminess of dressings, the warmth of PERi-PERi spices. A match made in flavour heaven. Dip it in chips, spread it on a burger, drizzle it on a salad, or even have it on a spoon. Whatever you fancy, flavour up with PERinaise.",
     "detailedDescription" : null,
@@ -3294,7 +3284,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "9066be19-31b1-4076-9a86-96eb7cdf6eee",
+    "id" : "0a5928bd-7ed2-459e-bf75-73f6c6a62a51",
     "name" : "PERi-PERi Wedges (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -3309,7 +3299,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b9d14a82-0f49-441b-81c5-c725c4a2b80f",
+    "id" : "57e10d8f-dd0c-4436-9280-cebe32cb64d1",
     "name" : "Coke (buddy)",
     "description" : "",
     "detailedDescription" : null,
@@ -3324,7 +3314,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "c2ff7608-0428-4b77-b747-86f4ac6a2d23",
+    "id" : "01d11bc9-829a-4c20-bb29-82e5bc835005",
     "name" : "Cabo Sosatie Snack Platter",
     "description" : "A generous sharing platter of 4 succulent Flame-grilled Shisanyama Chicken Sosaties and 20 Winglets, served with 2 portions of our Sharing Wedges, 2 Garlic Rolls and our special PERinase dip.",
     "detailedDescription" : null,
@@ -3349,7 +3339,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b0282f73-4e17-4e94-b76e-5754195a31f6",
+    "id" : "427fd40e-fe59-40d5-949e-8f49bfc62868",
     "name" : "Lemon & Herb PERi-PERi Sauce",
     "description" : "",
     "detailedDescription" : null,
@@ -3364,7 +3354,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "d6a2518f-fca2-41d9-9f14-c952f2d2a32a",
+    "id" : "bf977cb9-ee88-4bbd-a166-148cf6bc7b4b",
     "name" : "Halloumi & Veg Pita (on its own)",
     "description" : "Roast Veg with grilled Halloumi prepared in a unique Nando's PERi-PERi recipe in a pita",
     "detailedDescription" : null,
@@ -3384,7 +3374,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6e15dc8d-6950-4bb2-a217-1719f2489a08",
+    "id" : "c9017c2d-3002-48f3-9aa6-a50e86f3dd76",
     "name" : "350ml Soda",
     "description" : "",
     "detailedDescription" : null,
@@ -3404,7 +3394,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "cbbde077-de12-4fb6-83fb-30aa4c6c59ae",
+    "id" : "178fc3ea-161f-4906-aeda-314283a5f6b1",
     "name" : "PERi-tato Salad (Single)",
     "description" : "Warm potato salad smothered in our famous PERinaise, finished off with herb sprinkles",
     "detailedDescription" : null,
@@ -3419,7 +3409,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "aaab1dbb-0fb4-45c5-919a-23a283f7f62f",
+    "id" : "4705d3e2-8ca6-4a0d-a45d-ec3c651e092a",
     "name" : "Roasted Veg (Sharing)",
     "description" : "In your favourite basting",
     "detailedDescription" : null,
@@ -3434,7 +3424,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8d8a8182-671d-420b-a301-a03b3da43440",
+    "id" : "df49c0dd-29c8-486d-b323-59869ee7b60d",
     "name" : "Double Chicken Burger + any Single Side",
     "description" : "A tender double burger prepared in Nando's unique PERi-PERi recipe served with a single side of your choice",
     "detailedDescription" : null,
@@ -3459,7 +3449,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "af224062-7695-4162-a8fc-1411b0222bc3",
+    "id" : "65ec9aa2-bb07-4fc0-841b-71514f1baa41",
     "name" : "Red Grapetiser (can)",
     "description" : "",
     "detailedDescription" : null,
@@ -3474,7 +3464,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "05c83c16-0050-4310-984b-89bafe1820e3",
+    "id" : "79cfac03-d0e3-4ff7-bd32-f45007c9b4a3",
     "name" : "Batata Harra (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -3489,7 +3479,27 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "52ca79c4-4ebe-4608-8aa4-e71cf3b49b4b",
+    "id" : "174915d5-8d42-4949-b8b9-5816a350f0c5",
+    "name" : "Churros with Salted Caramel Sauce",
+    "description" : "2 decadent, Portuguese doughnuts, dusted in cinnamon sugar + new salted caramel sauce",
+    "detailedDescription" : null,
+    "tags" : null,
+    "group" : "Something Sweet",
+    "position" : 10000,
+    "quantity" : 100,
+    "storePrice" : 39.0,
+    "discountPerc" : 0.0,
+    "images" : [ "https://images.nandos.co.za/MW_IMAGES/8c830240-dc40-428b-b74f-a09103e57715" ],
+    "mandatorySelection" : [ {
+      "name" : "Extra Caramel",
+      "values" : [ "Extra Caramel" ],
+      "selected" : null,
+      "price" : 0.0
+    } ],
+    "optionalSelection" : null,
+    "externalUrlPath" : null
+  }, {
+    "id" : "213ce135-38d0-4bcc-be0b-8432a1786b82",
     "name" : "1.5L Fanta Orange",
     "description" : "",
     "detailedDescription" : null,
@@ -3504,7 +3514,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "9552f7cd-6cc7-4226-839e-2d52b8bb2b6b",
+    "id" : "63314974-be3a-4b23-b2c2-0ecf6ce87f0b",
     "name" : "Veg PERinaise, Avo & Caramelised Onion Pita (on its own)",
     "description" : "A Veg patty in a pita with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -3524,7 +3534,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "069f773b-1b31-4d79-afb7-29e36ccd1fda",
+    "id" : "45e79787-4687-4201-b2ab-4a1d39bb5dc4",
     "name" : "Chicken Prego + any Single Side",
     "description" : "A saucy chicken prego fillet topped with grilled onions and a garlic buttered Nando's roll served with a single side of your choice",
     "detailedDescription" : null,
@@ -3549,7 +3559,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e2fa105a-9ce0-449e-91bf-af732a172d5e",
+    "id" : "2019637a-4a8a-45db-827c-46c3674b31dc",
     "name" : "The Great Pretender Cheese Carnival Pita + any Single Side",
     "description" : "Plant-based protein in a pita perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -3574,7 +3584,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b7d7dc51-ecd3-40c1-9f5b-d7dcc21ded42",
+    "id" : "dd787aba-4b13-4c8d-80cc-d4f7b253f22a",
     "name" : "Chicken Strips & Spicy Rice",
     "description" : "Tender chicken strips prepared in Nando's unique PERi-PERi recipe served on a bed of Spicy Rice",
     "detailedDescription" : null,
@@ -3594,7 +3604,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "42e515ae-357a-4bbd-9147-8adfde16f178",
+    "id" : "a6a16ac9-013c-469f-a055-85d319dab4a6",
     "name" : "Feta",
     "description" : "",
     "detailedDescription" : null,
@@ -3609,7 +3619,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4fe63e57-9b24-44cc-b133-c1d5d3b40fe0",
+    "id" : "7fe50ada-a5ba-42e3-b5b6-fb185729ee05",
     "name" : "PERi-PERi Chips (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -3624,7 +3634,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "bad1ce77-161e-42cb-85d4-be220d6bb066",
+    "id" : "7d6885f9-92e4-47f1-aff6-c64a0479ad19",
     "name" : "Livers and a Nando's Roll (Full portion)",
     "description" : "A generous portion of chicken Livers in Nando's unique PERi-PERi recipe served with a freshly baked Nando's Roll",
     "detailedDescription" : null,
@@ -3649,7 +3659,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "7be2ad05-ecaf-466d-867b-016b3e1bb9f4",
+    "id" : "ecea4f1a-9fa6-41f8-856c-93be9d1da205",
     "name" : "Pulled Chicken Sandwich with cheese  (on its own)",
     "description" : "Tender Pulled Chicken sautéed with onions on a fresh Nando's bun",
     "detailedDescription" : null,
@@ -3669,7 +3679,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "5dcbd6db-c955-4058-be39-e9b20d45bc9f",
+    "id" : "4b87a2ed-45f0-44b1-a5e4-921a68f1d780",
     "name" : "Full Chicken + any 3 Sharing Sides",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe with 3 sharing sides of your choice",
     "detailedDescription" : null,
@@ -3709,7 +3719,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8e1f2cac-8db3-4472-8dff-1b7529ebbd3d",
+    "id" : "ef194a35-26a1-4b9f-9d62-0950e68f0e66",
     "name" : "Chicken Pita + any Single Side",
     "description" : "Tender chicken strips prepared in Nando's unique PERi-PERi recipe in a Pita served with a single side of your choice",
     "detailedDescription" : null,
@@ -3734,7 +3744,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "dac4a7dc-62c4-4dd3-91ac-74397b0574b3",
+    "id" : "3cb26bb9-01ba-498e-8560-6b95815de0fc",
     "name" : "Cheese Slice",
     "description" : "",
     "detailedDescription" : null,
@@ -3749,7 +3759,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e7d96b41-e68f-46c9-8e5e-b0933ff60b5f",
+    "id" : "114b6dd6-c0a5-4b6a-8722-7a0896403381",
     "name" : "Cheese Carnival Pita + any Single Side",
     "description" : "Tender chicken strips in a pita perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -3774,7 +3784,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "541959bf-1772-4afa-a1fa-40df7439a9f5",
+    "id" : "5943469b-a562-4b0e-b98d-cca30cd8e381",
     "name" : "Veg Cheese Carnival Wrap (on its own)",
     "description" : "A Veg patty in a Wrap perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -3799,7 +3809,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b8de27f2-b41c-4537-89ba-3d9d78243a3e",
+    "id" : "4241a36d-4ba4-4853-8f75-45ea5615add9",
     "name" : "Batata Harra (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -3814,7 +3824,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "634ad606-8fe8-4051-a568-9f70cfeda67f",
+    "id" : "54146c00-d06c-4307-97c9-7493f4f168c2",
     "name" : "The Great Pretender Cheese Carnival Wrap + any Single Side",
     "description" : "Plant-based protein in a Wrap perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -3839,7 +3849,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "96e32acf-dafc-4089-af8f-4a1b25f15907",
+    "id" : "4e18fb7e-f96e-4509-bb10-3e5730246e3b",
     "name" : "Starter Livers (on their own)",
     "description" : "Saucy Livers in garlic and your flavour of choice",
     "detailedDescription" : null,
@@ -3859,7 +3869,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0d3367ac-7714-479b-9a73-e63329b4f94a",
+    "id" : "73bc865f-d230-4fc9-b960-c9ed995a2008",
     "name" : "The Great Pretender Cheese Pita (on its own)",
     "description" : "Plant-based protein with cheese in a pita",
     "detailedDescription" : null,
@@ -3879,7 +3889,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b98be963-4592-4511-9782-2bdc9f171ea2",
+    "id" : "8b030c46-2743-42ae-8b3b-442f737946fc",
     "name" : "Roasted Veg (Single)",
     "description" : "In your favourite basting",
     "detailedDescription" : null,
@@ -3894,7 +3904,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "bc2f8e19-3524-419f-bff6-f87e1594fdb7",
+    "id" : "b8ff39f5-3028-4d7f-9053-06e75f905d06",
     "name" : "Casa Natas Shake",
     "description" : "A decadent Casa das Natas-flavoured shake layered with creamy custard, then lathered  with whipped cream and  a rich caramel sauce",
     "detailedDescription" : null,
@@ -3909,7 +3919,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "863ef93e-6ab6-48d3-b394-9f39b2f8b99a",
+    "id" : "e6b3dded-6ae1-4db1-9e08-54b9d0370cef",
     "name" : "Coleslaw (Single)",
     "description" : "Sliced and mixed cabbage in delicious Nando's mayo",
     "detailedDescription" : null,
@@ -3924,7 +3934,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "d3343ceb-e8d3-446b-a3ec-f9fa63fdb585",
+    "id" : "c91638c5-30f0-4321-83d9-a33b0de1efb4",
     "name" : "PERinaise, Avo & Caramelised Onion Burger + any Single Side",
     "description" : "A tender burger blended with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -3949,7 +3959,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "9a5a39b6-0da8-4221-b12b-663aefaad885",
+    "id" : "b464bbdd-1dae-4752-b7ba-7f37e7252c72",
     "name" : "Veg PERinaise, Avo & Caramelised Onion Wrap (on its own)",
     "description" : "A Veg patty in a Wrap with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -3974,7 +3984,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "f6070a47-66c1-4460-9429-6b2976c49e37",
+    "id" : "eda5485b-9323-44b0-8125-6c73a82a131f",
     "name" : "Chicken Arroz",
     "description" : "Our famous Flame-grilled chicken, basted in the flavour of your choice, served on a bed of Spicy Rice and a generous drizzling of delicious Nando's Arroz sauce",
     "detailedDescription" : null,
@@ -3999,7 +4009,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "badcf08c-876d-4a38-b7d4-21e165a2be58",
+    "id" : "52a54fc5-0879-440c-8dd8-11165cb0b78a",
     "name" : "PERinaise Hot",
     "description" : "The creaminess of dressings, the warmth of PERi-PERi spices. A match made in flavour heaven. Dip it in chips, spread it on a burger, drizzle it on a salad, or even have it on a spoon. Whatever you fancy, flavour up with PERinaise.",
     "detailedDescription" : null,
@@ -4014,7 +4024,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "75534fe5-a17d-4b75-9a83-2ab6a2f59d8b",
+    "id" : "2cd0c6f8-4b63-4a47-9269-8d2cafd95e0b",
     "name" : "Pulled Chicken and Cheese Wrap + any Single Side",
     "description" : "Tender pulled chicken prepared in Nando's unique PERi-PERi recipe in a Pita served with a single side of your choice",
     "detailedDescription" : null,
@@ -4039,7 +4049,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b5412235-d09c-47f2-ac3d-abdae02c591e",
+    "id" : "c2af75df-0d33-4789-9c86-06da5766dce8",
     "name" : "The Great Pretender Grande Salad",
     "description" : "A fresh Nando's salad, topped with plant-based protein prepared in Nando's unique PERi-PERi recipe, creamy avo, feta and garlic & herb sweetcorn",
     "detailedDescription" : null,
@@ -4059,7 +4069,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "8a1af33a-9ae1-42e5-a4d6-720b53efd0a8",
+    "id" : "2015af7a-a3dd-449d-a135-b8d2d85b9a80",
     "name" : "Plain Chips (Sharing)",
     "description" : "",
     "detailedDescription" : null,
@@ -4074,7 +4084,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "15fd0efe-8d1b-4fe2-af39-c741df155fc8",
+    "id" : "48f163af-2ef2-41f8-b7a6-047528e1708f",
     "name" : "1/2 Chicken (on its own)",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe",
     "detailedDescription" : null,
@@ -4094,7 +4104,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6a2da40e-4628-49ea-8916-f062f6efaf33",
+    "id" : "26e71060-5913-4ad9-a426-d5af9f1b2e9f",
     "name" : "6 PERi-crusted Winglets (on their own)",
     "description" : "6 Marinated and flame-grilled winglets dipped in PERi-PERi spice",
     "detailedDescription" : null,
@@ -4109,7 +4119,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4d897462-43f0-4974-aa76-5b23ee2902da",
+    "id" : "03d6380a-ec12-4c99-9dbc-bf41211f1525",
     "name" : "Valpre Still",
     "description" : "",
     "detailedDescription" : null,
@@ -4124,7 +4134,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "ce752e51-26eb-4226-ae42-177999cfdd39",
+    "id" : "694ec41d-8e4a-4fe7-822a-a245c90a88ce",
     "name" : "PERi-Spinach (Single)",
     "description" : "In your favourite basting",
     "detailedDescription" : null,
@@ -4144,7 +4154,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0c272df7-484a-4c80-ad6b-6e858688c247",
+    "id" : "29334c61-6257-4d58-8604-8eff753b3648",
     "name" : "PERinaise, Avo & Caramelised Onion Wrap (on its own)",
     "description" : "Tender chicken strips in a Wrap with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -4169,7 +4179,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "56de3f1a-779c-4431-8511-aad60ac9d195",
+    "id" : "163e3ba6-bb7f-49eb-9ece-4ad61f5c3a27",
     "name" : "Roasted Corn & Red Pepper Boujee Bowl with Chicken Strips",
     "description" : "The Original Boujee Bowl served on a bed of Spicy Rice and fresh baby spinach leaves",
     "detailedDescription" : null,
@@ -4189,7 +4199,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "bc9ba4fc-5142-4427-a5cc-53ae023483c5",
+    "id" : "4f2a0055-4cba-4d7f-a322-bd02db9450b2",
     "name" : "Nandinos Veg Burger & Chips (Kids)",
     "description" : "A Veg patty in Nando's unique not-so-hot Tangy Tomato PERi-PERi recipe in a kiddy bun and served with a kids portion of chips or wedges  (veg patty consists of Chickpeas, Butternut, Red Kidney Beans, Spinach & flame-grilled Corn)",
     "detailedDescription" : null,
@@ -4214,7 +4224,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "79db8a33-4132-40d7-95e1-fabecd993556",
+    "id" : "5ba6ad76-1b6f-4163-b745-d2f5ed5d4090",
     "name" : "Cheese Carnival Wrap (on its own)",
     "description" : "Tender chicken strips in a Wrap perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -4239,7 +4249,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e5efe002-be6d-4941-ab57-ef9b12875a86",
+    "id" : "5f9203cf-a260-4398-a040-ea6dd4331cba",
     "name" : "10 Regular Winglets + any Single Side",
     "description" : "10 Marinated and flame-grilled winglets served with a single side of your choice",
     "detailedDescription" : null,
@@ -4264,7 +4274,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e320d0ef-0c02-45a9-a716-b3501bb8cd5d",
+    "id" : "b3ccbc2a-d4c2-4b6e-a53c-f7c7fc762bea",
     "name" : "PERinaise, Avo & Caramelised Onion Pita (on its own)",
     "description" : "Tender chicken strips in a pita with Nando's PERinaise, creamy avo and sautéed onions",
     "detailedDescription" : null,
@@ -4284,7 +4294,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "4f7aac89-b3fe-4d9d-bb7c-33f4803c6fe8",
+    "id" : "3eea41f1-d3da-4fb0-a123-e52e93649056",
     "name" : "The Great Pretender and Cheese Wrap (on its own)",
     "description" : "Plant-based protein with cheese in a Wrap",
     "detailedDescription" : null,
@@ -4304,7 +4314,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "dc43644c-4e40-414d-964e-cb5bda17e036",
+    "id" : "83ba106d-c0a1-4bcb-be60-fcd23dc84f0f",
     "name" : "Veg Cheese Carnival Pita (on its own)",
     "description" : "A Veg patty in a pita perfectly paired with a decadent cheese sauce and a slice of cheese",
     "detailedDescription" : null,
@@ -4324,7 +4334,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "5985921a-6bac-4a77-b8eb-c9f7f87600a7",
+    "id" : "2a110b78-7f17-4599-bc75-774fac0d0843",
     "name" : "Halloumi & Veg Wrap + any Single Side",
     "description" : "Delicious Halloumi & Roast Veg prepared in Nando's unique PERi-PERi recipe in a Wrap served with a single side of your choice",
     "detailedDescription" : null,
@@ -4349,7 +4359,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "5649dfe8-2789-4b90-b036-03a60042b394",
+    "id" : "2c16c699-4199-4f8b-89f4-d668a1125726",
     "name" : "The Great Pretender Pita + any Single Side",
     "description" : "Plant-based protein prepared in Nando's unique PERi-PERi recipe in a Pita served with a single side of your choice",
     "detailedDescription" : null,
@@ -4374,7 +4384,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "7eacf64e-f73f-4038-9b5f-b70300a1ac23",
+    "id" : "68a9e853-3462-42d5-abec-2098b584f9f3",
     "name" : "Nandinos Strips, Corn & Salad (Kids)",
     "description" : "Tender flame-grilled chicken strips in Nando's unique not-so-hot Tangy Tomato PERi-PERi recipe served with a kids portion of corn (mielie) and salad",
     "detailedDescription" : null,
@@ -4404,7 +4414,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "417e3370-da83-4208-8752-bd77a72fc724",
+    "id" : "f71732b0-392e-4833-aac9-e722aef2e8bb",
     "name" : "Appletiser (can)",
     "description" : "",
     "detailedDescription" : null,
@@ -4419,7 +4429,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "64cf8ef5-656e-4015-9e1a-9d944bf58c6a",
+    "id" : "4ce4a5e7-5f66-4f8a-b29d-5f364ca155f5",
     "name" : "Avo & Halloumi Boujee Bowl with Veg Patty",
     "description" : "Veg Patty in Nando's unique PERi-PERi recipe on Spicy Rice with creamy avo and grilled Halloumi",
     "detailedDescription" : null,
@@ -4439,7 +4449,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b153180e-d0ba-495e-a779-48f07fba8c09",
+    "id" : "eefd413a-db12-4a64-b3d8-584f713817bb",
     "name" : "1.5L Sprite",
     "description" : "",
     "detailedDescription" : null,
@@ -4454,7 +4464,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "1dc3caa3-7ee1-4fc0-b081-6aa789b7a0d6",
+    "id" : "56cc178e-5e6a-40b5-b4fc-da7ce0662fe9",
     "name" : "The Great Pretender Festa Roll (on its own)",
     "description" : "Saucy plant-based protein in a flavour of your choice, topped with grilled onions, crispy chips and creamy cheese sauce, heaped onto a Nando’s garlic buttered roll",
     "detailedDescription" : null,
@@ -4474,7 +4484,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "7b0ec062-3fb6-4e49-9b39-57c0dd28ec0e",
+    "id" : "3cd7f4cc-261a-4caa-a101-6de86fa23d55",
     "name" : "Creamy Corn Salad (Single)",
     "description" : "",
     "detailedDescription" : null,
@@ -4489,7 +4499,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "2e641a96-5049-49be-9605-026ab5c4d92d",
+    "id" : "98dbf804-873a-473c-bd02-3c85e4268b45",
     "name" : "Veg Cheese Carnival Pita + any Single Side",
     "description" : "A Veg patty in a pita perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -4514,7 +4524,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "70ebc20d-5434-4092-af48-26d0d4bb9335",
+    "id" : "377c67ca-321d-49a5-be44-33f81514ce69",
     "name" : "Medium PERi-PERi Sauce",
     "description" : "",
     "detailedDescription" : null,
@@ -4529,7 +4539,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e8ccc4bd-8512-48a6-94f4-fcea77d4f9be",
+    "id" : "3c1ffe4c-4e13-4abe-883a-a587ca8ddc82",
     "name" : "1/4 Chicken & Festa Fries Grande Meal",
     "description" : "1/4 Chicken with Chips, smothered in cheese sauce, with Pulled Chicken and sautéed onions",
     "detailedDescription" : null,
@@ -4554,7 +4564,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "807e246c-9d6d-4e14-8309-a83cffd01fb9",
+    "id" : "e4261729-b892-49fa-b23f-fbdd391fc256",
     "name" : "Halloumi & Veg Pita + any Single Side",
     "description" : "Roast Veg with grilled Halloumi prepared in a unique Nando's PERi-PERi recipe in a pita served with any single side of your choice",
     "detailedDescription" : null,
@@ -4579,7 +4589,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "40ac86cf-e430-4687-bb73-3fa21457d419",
+    "id" : "2abb23a6-60f1-4e7e-b5a5-d0ecd43de5a5",
     "name" : "Cappy Juice Breakfast Blend",
     "description" : "",
     "detailedDescription" : null,
@@ -4594,7 +4604,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "20ed8c42-e5eb-4cc9-880a-ee59b1576847",
+    "id" : "01ea0e4f-ff7c-4b9d-a373-048e7a6b8ea1",
     "name" : "Livers and a Nando's Roll (Single portion)",
     "description" : "A starter portion of chicken Livers in Nando's unique PERi-PERi recipe served with a freshly baked Nando's Roll",
     "detailedDescription" : null,
@@ -4619,7 +4629,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6fa8ea80-6f97-4d4c-b989-56da42caf729",
+    "id" : "b7ee9a86-8db9-4b9c-93ff-ca6fc3c83157",
     "name" : "Chicken Fillet (on its own)",
     "description" : "",
     "detailedDescription" : null,
@@ -4639,12 +4649,12 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "fc641494-b0e8-432d-aeb3-104d6cecd146",
+    "id" : "2198485d-d7ac-4b68-8947-ffbc5661c2f2",
     "name" : "Beetroot & Feta Salad (Single)",
     "description" : "Zesty beetroot served with creamy feta",
     "detailedDescription" : null,
     "tags" : null,
-    "group" : "Beetroot & Feta",
+    "group" : null,
     "position" : 10000,
     "quantity" : 100,
     "storePrice" : 32.0,
@@ -4659,7 +4669,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "485ac185-fd58-4530-acc9-3409e164620a",
+    "id" : "084c376b-3e9a-4e6c-bbd8-3efaaeae9e61",
     "name" : "Chicken Wrap + any Single Side",
     "description" : "Tender chicken strips prepared in Nando's unique PERi-PERi recipe in a Wrap served with a single side of your choice",
     "detailedDescription" : null,
@@ -4684,7 +4694,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "6256cfd1-8c30-44e4-bf17-3e769a168219",
+    "id" : "1f38825a-f489-4193-965c-987cc90b1e70",
     "name" : "10 PERi-crusted Winglets + any Single Side",
     "description" : "10 Marinated and flame-grilled winglets dipped in PERi-PERi spice served with a single side of your choice",
     "detailedDescription" : null,
@@ -4709,7 +4719,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "28f146b9-ac96-496f-9b66-54955cde8aa7",
+    "id" : "105fc592-d0d0-48a9-9904-739ad654a79b",
     "name" : "Full Chicken (on its own)",
     "description" : "Flame-grilled chicken in Nando's unique PERi-PERi recipe",
     "detailedDescription" : null,
@@ -4734,7 +4744,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "0eb49571-a5a6-4472-9d2e-ca4186006914",
+    "id" : "3e37a037-9f23-4bb9-9681-099bd569f7ab",
     "name" : "Veg PERinaise, Avo & Caramelised Onion Wrap + any Single Side",
     "description" : "A Veg patty in a Wrap with Nando's PERinaise, creamy avo and sautéed onions served with a single side of your choice",
     "detailedDescription" : null,
@@ -4759,7 +4769,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "55e40084-b64f-4ba1-ae49-7d69f4723ff2",
+    "id" : "b29e77ce-848b-457c-bd57-03edc766d949",
     "name" : "1.5L Stoney No Sugar",
     "description" : "",
     "detailedDescription" : null,
@@ -4774,7 +4784,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "61e8df84-4fbe-435c-b4e8-f4e3be72aab9",
+    "id" : "4ab10d82-338a-4679-a588-66fc64028b93",
     "name" : "Veg Cheese Carnival Wrap + any Single Side",
     "description" : "A Veg patty in a Wrap perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -4799,7 +4809,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "62fcd9d1-a0ab-470c-b9e0-b271701210f7",
+    "id" : "d9870e42-0a21-4c6e-9e33-32fd11dfbd73",
     "name" : "Cappy Juice Apple",
     "description" : "",
     "detailedDescription" : null,
@@ -4814,7 +4824,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "49e7b78e-497a-4627-bb1c-ed3c26fa7c87",
+    "id" : "fc767de2-4302-44a8-b5d7-a1f0c9357b5b",
     "name" : "Cheese Carnival Wrap + any Single Side",
     "description" : "Tender chicken strips in a Wrap perfectly paired with a decadent cheese sauce and a slice of cheese served with a single side of your choice",
     "detailedDescription" : null,
@@ -4839,7 +4849,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "b0719e59-98a9-44db-842d-2249602e7588",
+    "id" : "1e841970-7931-4fad-bc93-ce3974b1c332",
     "name" : "PERinaise Dip",
     "description" : "Single serving of PERinaise to complete your meal",
     "detailedDescription" : null,
@@ -4854,7 +4864,7 @@
     "optionalSelection" : null,
     "externalUrlPath" : null
   }, {
-    "id" : "e88b4e88-e9db-47b4-90c7-5fe35016be3f",
+    "id" : "e5b23689-b0f2-44a0-9754-a20b463eaddf",
     "name" : "Veg Pita + any Single Side",
     "description" : "Veg patty prepared in Nando's unique PERi-PERi recipe in a Pita served with any single side of your choice",
     "detailedDescription" : null,
@@ -4882,32 +4892,32 @@
   "tags" : [ "restaurant", "Chicken", "Drinks", "Burger" ],
   "businessHours" : [ {
     "day" : "MONDAY",
-    "open" : "2023-11-11T09:00:00.000Z",
-    "close" : "2023-11-11T18:00:00.000Z"
+    "open" : "2023-11-22T09:00:00.000Z",
+    "close" : "2023-11-22T18:00:00.000Z"
   }, {
     "day" : "TUESDAY",
-    "open" : "2023-11-11T09:00:00.000Z",
-    "close" : "2023-11-11T18:00:00.000Z"
+    "open" : "2023-11-22T09:00:00.000Z",
+    "close" : "2023-11-22T18:00:00.000Z"
   }, {
     "day" : "WEDNESDAY",
-    "open" : "2023-11-11T09:00:00.000Z",
-    "close" : "2023-11-11T18:00:00.000Z"
+    "open" : "2023-11-22T09:00:00.000Z",
+    "close" : "2023-11-22T18:00:00.000Z"
   }, {
     "day" : "THURSDAY",
-    "open" : "2023-11-11T09:00:00.000Z",
-    "close" : "2023-11-11T18:00:00.000Z"
+    "open" : "2023-11-22T09:00:00.000Z",
+    "close" : "2023-11-22T18:00:00.000Z"
   }, {
     "day" : "FRIDAY",
-    "open" : "2023-11-11T09:00:00.000Z",
-    "close" : "2023-11-11T18:00:00.000Z"
+    "open" : "2023-11-22T09:00:00.000Z",
+    "close" : "2023-11-22T18:00:00.000Z"
   }, {
     "day" : "SATURDAY",
-    "open" : "2023-11-11T09:00:00.000Z",
-    "close" : "2023-11-11T18:00:00.000Z"
+    "open" : "2023-11-22T09:00:00.000Z",
+    "close" : "2023-11-22T18:00:00.000Z"
   } ],
   "hasVat" : false,
   "featured" : true,
-  "featuredExpiry" : "2024-02-11T19:36:32",
+  "featuredExpiry" : "2024-02-22T02:54:34",
   "storeType" : "FOOD",
   "storeWebsiteUrl" : "Izinga.co.za",
   "izingaTakesCommission" : false,
@@ -4925,7 +4935,7 @@
   "externalId" : null,
   "storeMessenger" : [ ],
   "orderUrl" : "Izinga.co.za/order/",
-  "storeOffline" : false,
-  "deliverNowAllowed" : true,
+  "storeOffline" : true,
+  "deliverNowAllowed" : false,
   "date" : "2023-03-13T12:32:31"
 }

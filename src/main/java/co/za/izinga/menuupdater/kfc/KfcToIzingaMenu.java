@@ -9,10 +9,9 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 import java.io.IOException;
+import java.time.*;
 import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -40,7 +39,8 @@ public class KfcToIzingaMenu {
                             .flatMap(i -> Stream.of(i.getAvailability())).findFirst();
                     var price = availability.map(a -> a.getPrice()/100.00).orElse(0.00);
                     var availableEveryDay = availability.map(a -> Day.EVERYDAY == a.getDayOfWeek().getDay()).orElse(false);
-                    if (price > 0 && availableEveryDay && !isProductExcluded(items, excludedProducts, kfcStore.getExternalId())) {
+                    var isAvailableAtThisTime = availability.map(KfcToIzingaMenu::isAvailableNow).orElse(false);
+                    if (price > 0 && availableEveryDay && isAvailableAtThisTime && !isProductExcluded(items, excludedProducts, kfcStore.getExternalId())) {
                         Stock stockItem = new Stock();
                         stockItem.setName(items.getName());
                         stockItem.setDescription(items.getShortDescription()[0].getValue());
@@ -74,6 +74,13 @@ public class KfcToIzingaMenu {
         ).collect(Collectors.toList());
         kfcStore.setBusinessHours(hours);
         return kfcStore;
+    }
+
+    private static boolean isAvailableNow(Availability availability) {
+        var availableFrom = LocalTime.parse(availability.getAvailableHours().getStartTime().getTime());
+        var availableTo = LocalTime.parse(availability.getAvailableHours().getEndTime().getTime());
+        var now = LocalTime.now().plusHours(2); //SA time
+        return now.isAfter(availableFrom) && now.isBefore(availableTo);
     }
 
     private static boolean isProductExcluded(Product items, List<Exclusion> excludedProducts, String storeId) {

@@ -4,7 +4,7 @@ public class Time {
     private String time;
 
     public String getTime() {
-        return time;
+        return time.substring(0,2) + ":" + time.substring(2,4) + ":00";
     }
 
     public void setTime(String value) {
