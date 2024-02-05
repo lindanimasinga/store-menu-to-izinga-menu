@@ -1,12 +1,10 @@
 package co.za.izinga.menuupdater.steers;
 
 import co.za.izinga.menuupdater.model.*;
-import co.za.izinga.menuupdater.steers.model.MenuItem;
-import co.za.izinga.menuupdater.steers.model.Option;
-import co.za.izinga.menuupdater.steers.model.ShopLocation;
-import co.za.izinga.menuupdater.steers.model.SteersMenu;
+import co.za.izinga.menuupdater.steers.model.*;
 import com.fasterxml.jackson.core.type.TypeReference;
 import okhttp3.Request;
+import okhttp3.Response;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -107,7 +105,9 @@ public class SteersMenuToIzinga {
 
         String fullUrl = String.format("%s/menu/listing?storeId=%s&orderType=Delivery", storeUrl, store.getExternalId());
         Request request = new Request.Builder().url(fullUrl).build();
-        byte[] responseBodyBytes = Objects.requireNonNull(client.newCall(request).execute().body()).bytes();
+        Response response = client.newCall(request).execute();
+        byte[] responseBodyBytes = Objects.requireNonNull(response.body()).bytes();
+        response.close();
         SteersMenu steersMenu = mapper.readValue(responseBodyBytes, SteersMenu.class);
         steersMenu.getCategories()
                 .stream()
@@ -116,9 +116,11 @@ public class SteersMenuToIzinga {
                     String url = String.format("%s/menuitem?menuItemId=%d&storeId=%s&orderType=Delivery", storeUrl, item.getId(), store.getExternalId());
                     Request request2 = new Request.Builder().url(url).build();
                     try {
-                        byte[] responseBodyBytes2 = Objects.requireNonNull(client.newCall(request2).execute().body()).bytes();
+                        Response response2 = client.newCall(request2).execute();
+                        byte[] responseBodyBytes2 = Objects.requireNonNull(response2.body()).bytes();
                         MenuItem detailedMenuItem = mapper.readValue(responseBodyBytes2, MenuItem.class);
                         item.setOptionLists(detailedMenuItem.getOptionLists());
+                        response2.close();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -156,7 +158,7 @@ public class SteersMenuToIzinga {
         Set<Stock> stockList = new HashSet<>();
         //convert steer menu to izinga menu
         steersMenu.getCategories().stream()
-                .filter(ct -> !"treats".equalsIgnoreCase(ct.getName()))
+                .filter(ct -> !isExcluded(ct))
                 .forEach(category -> {
                     category.getMenuItems().stream().filter(i -> !i.isIsUnavailable()). forEach(menuItem -> {
                         Stock item = new Stock();
@@ -216,10 +218,16 @@ public class SteersMenuToIzinga {
         profile.setBusinessHours(hours);
     }
 
+    private static boolean isExcluded(Category ct) {
+        return List.of("online only deals").contains(ct.getName().toLowerCase());
+    }
+
     public static Optional<ShopLocation> getShopLocationInformation(String franshiseUrl, GeoPoint geoPoint) throws IOException {
         String SteersUrl = String.format("%s/stores/nearby?longitude=%s&latitude=%s&radiusInMeters=200&requestedDate", franshiseUrl, geoPoint.getLongitude(), geoPoint.getLatitude());
         Request request = new Request.Builder().url(SteersUrl).build();
-        byte[] responseBodyBytes = Objects.requireNonNull(client.newCall(request).execute().body()).bytes();
+        Response response = client.newCall(request).execute();
+        byte[] responseBodyBytes = Objects.requireNonNull(response.body()).bytes();
+        response.close();
         return mapper.readValue(responseBodyBytes, new TypeReference<List<ShopLocation>>() {}).stream().findFirst();
     }
 }

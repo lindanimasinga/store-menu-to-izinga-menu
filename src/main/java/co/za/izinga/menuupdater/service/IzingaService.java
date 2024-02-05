@@ -23,6 +23,7 @@ public class IzingaService {
 
     private static Logger log = LoggerFactory.getLogger(IzingaService.class);
     private static List<String> promos = new ArrayList<>();
+    private static final Random rand = new Random();
 
     public static void updateStoreOnIzinga(StoreProfile steersStore) throws IOException {
         //sort stock so that it appears correctly on the app, promos first
@@ -42,7 +43,7 @@ public class IzingaService {
         steersStore.getStockList()
                 .stream()
                 .filter(IzingaService::isAPromo)
-                .filter(stock -> new Random().nextBoolean()) // randomly filter out other promos
+                .filter(stock -> rand.nextBoolean()) // randomly filter out other promos
                 .limit(2)
                 .map(stock -> {
                     var promo = new Promotion(stock.getImages().get(0), steersStore.getId(),
@@ -68,7 +69,7 @@ public class IzingaService {
     }
 
     private static boolean isAPromo(Stock stock) {
-        var promoGroups = List.of("deal", "special", "promotion", "promotions", "deals", "specials", "family meals");
+        var promoGroups = List.of("deal", "special", "promotion", "promotions", "deals", "specials", "family meals", "featured items");
         return stock.getGroup() != null && promoGroups.contains(stock.getGroup().toLowerCase());
     }
 }
