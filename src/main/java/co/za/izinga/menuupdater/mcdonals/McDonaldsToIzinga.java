@@ -23,9 +23,10 @@ import static co.za.izinga.menuupdater.chickenlicken.CLMenuToIzinga.cleanName;
 public class McDonaldsToIzinga {
 
     public static StoreProfile loadMcdonalsMenu(StoreProfile kfcStore) throws IOException, URISyntaxException {
-        var fileuri = McDonaldsToIzinga.class.getClassLoader().getResource("mcdonalsMenu.json").toURI();
-        var mcdMenu = mapper.readValue(new File(fileuri), Root.class);
-        var stock1 = Stream.concat(mcdMenu.data.catalogSectionsMap.selectionMap1.stream(), mcdMenu.data.catalogSectionsMap.selectionMap2.stream())
+        //var fileuri = McDonaldsToIzinga.class.getClassLoader().getResource("mcdonalsMenu.json").toURI();
+        //var mcdMenu = mapper.readValue(new File(fileuri), Root.class);
+        var mcdMenu = fetchMcdData(Root.class, "c2317729-65c4-4fd4-8f18-c3f3e6636366");
+        var stock1 = Stream.concat(mcdMenu.data.catalogSectionsMap.mcdCatalog.stream(), mcdMenu.data.catalogSectionsMap.selectionMap2.stream())
                 .map(sec -> sec.payload)
                 .flatMap(load -> {
                     var category = load.standardItemsPayload.title.text;
@@ -38,7 +39,9 @@ public class McDonaldsToIzinga {
                                 stock.setDescription(cleanName(item.itemDescription));
                                 stock.setStorePrice(item.price/100.00);
                                 stock.setQuantity(1000);
-                                stock.setImages(List.of(item.imageUrl));
+                                if (item.imageUrl != null) {
+                                    stock.setImages(List.of(item.imageUrl));
+                                }
                                 stock.setMandatorySelection(List.of());
                                 return stock;
                             });
@@ -48,12 +51,13 @@ public class McDonaldsToIzinga {
         return kfcStore;
     }
 
-    private static <T> T fetchMcdData(Class<T> clazz) throws IOException {
+    public static <T> T fetchMcdData(Class<T> clazz, String uuid) throws IOException {
         Request request = new Request.Builder()
                 .url("https://www.ubereats.com/_p/api/getStoreV1?localeCode=za")
                 .header("x-csrf-token", "x")
-                .header("cookie", cookie)
-                .post(RequestBody.create(MediaType.parse("application/json"), "{\"storeUuid\":\"c2317729-65c4-4fd4-8f18-c3f3e6636366\",\"diningMode\":\"DELIVERY\",\"time\":{\"asap\":true},\"cbType\":\"EATER_ENDORSED\"}"))
+                //.header("cookie", cookie)
+                .post(RequestBody.create(MediaType.parse("application/json"),
+                        String.format("{\"storeUuid\":\"%s\",\"diningMode\":\"DELIVERY\",\"time\":{\"asap\":true},\"cbType\":\"EATER_ENDORSED\"}", uuid)))
                 .build();
         Response response = Objects.requireNonNull(client.newCall(request)).execute();
         var responseBodyString = Objects.requireNonNull(response.body()).string();

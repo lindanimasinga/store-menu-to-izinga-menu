@@ -5,5 +5,6 @@ public enum StoreType {
     FOOD,
     CLOTHING,
     SALON,
-    CAR_WASH
+    CAR_WASH,
+    TIPS
 }

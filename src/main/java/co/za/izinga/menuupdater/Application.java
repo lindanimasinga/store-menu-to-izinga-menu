@@ -9,6 +9,7 @@ import co.za.izinga.menuupdater.nandos.NandosToIzinga;
 import co.za.izinga.menuupdater.service.IzingaService;
 import co.za.izinga.menuupdater.spur.SpurToIzinga;
 import co.za.izinga.menuupdater.steers.SteersMenuToIzinga;
+import co.za.izinga.menuupdater.woolworths.WoolworthsToIzinga;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -89,6 +90,7 @@ public class Application {
         else if (store.getName().toLowerCase().contains("mcdonald")) McDonaldsToIzinga.loadMcdonalsMenu(store);
         else if (store.getName().toLowerCase().contains("spur")) SpurToIzinga.loadSpurMenu(store);
         else if (store.getName().toLowerCase().contains("bp")) BPToIzinga.loadBpMenu(store);
+        else if (store.getName().toLowerCase().contains("woolworths")) WoolworthsToIzinga.loadWWMenu(store);
         else return false;
         return true;
     }
