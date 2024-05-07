@@ -13,13 +13,15 @@ import java.util.stream.Collectors;
 
 import static co.za.izinga.menuupdater.Application.mapper;
 import static co.za.izinga.menuupdater.chickenlicken.CLMenuToIzinga.cleanName;
+import static co.za.izinga.menuupdater.mcdonals.McDonaldsToIzinga.fetchMcdData;
 
 public class BPToIzinga {
 
     public static StoreProfile loadBpMenu(StoreProfile spurStore) throws IOException, URISyntaxException {
-        var fileuri = McDonaldsToIzinga.class.getClassLoader().getResource("bpMenu.json").toURI();
-        var mcdMenu = mapper.readValue(new File(fileuri), Root.class);
-        var stock1 = mcdMenu.data.catalogSectionsMap.selectionMap4.stream()
+        /*var fileuri = McDonaldsToIzinga.class.getClassLoader().getResource("bpMenu.json").toURI();
+        var mcdMenu = mapper.readValue(new File(fileuri), Root.class);*/
+        var mcdMenu = fetchMcdData(Root.class, "c4bb2df2-5a63-48a9-90ab-4b5895d174fa");
+        var stock1 = mcdMenu.data.catalogSectionsMap.bpCatalog.stream()
                 .map(sec -> sec.payload)
                 .flatMap(load -> {
                     var category = load.standardItemsPayload.title.text;
@@ -32,7 +34,9 @@ public class BPToIzinga {
                                 stock.setDescription(cleanName(item.itemDescription));
                                 stock.setStorePrice(item.price/100.00);
                                 stock.setQuantity(1000);
-                                stock.setImages(List.of(item.imageUrl));
+                                if (item.imageUrl != null) {
+                                    stock.setImages(List.of(item.imageUrl));
+                                }
                                 stock.setMandatorySelection(List.of());
                                 return stock;
                             });

@@ -1,6 +1,5 @@
-package co.za.izinga.menuupdater.spur;
+package co.za.izinga.menuupdater.woolworths;
 
-import co.za.izinga.menuupdater.mcdonals.McDonaldsToIzinga;
 import co.za.izinga.menuupdater.mcdonals.model.Root;
 import co.za.izinga.menuupdater.model.Stock;
 import co.za.izinga.menuupdater.model.StoreProfile;
@@ -15,13 +14,13 @@ import static co.za.izinga.menuupdater.Application.mapper;
 import static co.za.izinga.menuupdater.chickenlicken.CLMenuToIzinga.cleanName;
 import static co.za.izinga.menuupdater.mcdonals.McDonaldsToIzinga.fetchMcdData;
 
-public class SpurToIzinga {
+public class WoolworthsToIzinga {
 
-    public static StoreProfile loadSpurMenu(StoreProfile spurStore) throws IOException, URISyntaxException {
-        /*var fileuri = McDonaldsToIzinga.class.getClassLoader().getResource("spurMenu.json").toURI();
+    public static StoreProfile loadWWMenu(StoreProfile woolworths) throws IOException, URISyntaxException {
+        /*var fileuri = WoolworthsToIzinga.class.getClassLoader().getResource("woolworths.json").toURI();
         var mcdMenu = mapper.readValue(new File(fileuri), Root.class);*/
-        var mcdMenu = fetchMcdData(Root.class, "bb85b82e-d78f-42a0-955a-751310bbdf28");
-        var stock1 = mcdMenu.data.catalogSectionsMap.spurCatalog.stream()
+        var mcdMenu = fetchMcdData(Root.class, "e5f6d7ff-95e1-5e0b-85dd-121dae634541");
+        var stock1 = mcdMenu.data.catalogSectionsMap.woolworthsCatalog.stream()
                 .map(sec -> sec.payload)
                 .flatMap(load -> {
                     var category = load.standardItemsPayload.title.text;
@@ -41,8 +40,8 @@ public class SpurToIzinga {
                                 return stock;
                             });
                 }).collect(Collectors.toSet());
-        spurStore.setStockList(stock1);
-        spurStore.setMarkUpPrice(false);
-        return spurStore;
+        woolworths.setStockList(stock1);
+        woolworths.setMarkUpPrice(false);
+        return woolworths;
     }
 }
