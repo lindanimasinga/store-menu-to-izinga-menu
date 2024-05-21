@@ -39,12 +39,10 @@ public class IzingaService {
         Application.client.newCall(request).execute().close();
 
         //update promotions
-        if(promos.contains(steersStore.getFranchiseName())) return; //promos already added
+        if(steersStore.isStoreOffline() || promos.contains(steersStore.getFranchiseName())) return; //promos already added
         steersStore.getStockList()
                 .stream()
                 .filter(IzingaService::isAPromo)
-                .filter(stock -> rand.nextBoolean()) // randomly filter out other promos
-                .limit(2)
                 .map(stock -> {
                     var promo = new Promotion(stock.getImages().get(0), steersStore.getId(),
                             StoreType.FOOD, Date.from(LocalDateTime.now().plusHours(4).toInstant(ZoneOffset.UTC)));
