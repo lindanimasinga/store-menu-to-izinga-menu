@@ -150,7 +150,7 @@
         <profile>
             <id>aut</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
                 <spring.profiles.active>uat</spring.profiles.active>
