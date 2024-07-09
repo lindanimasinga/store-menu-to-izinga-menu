@@ -37,7 +37,7 @@ public class McDonaldsToIzinga {
                                 stock.setName(cleanName(item.title));
                                 stock.setGroup(cleanName(category));
                                 stock.setDescription(cleanName(item.itemDescription));
-                                stock.setStorePrice(item.price/100.00);
+                                stock.setStorePrice(item.price/100.00 * 0.8); //this is uber price make less to 80%
                                 stock.setQuantity(1000);
                                 if (item.imageUrl != null) {
                                     stock.setImages(List.of(item.imageUrl));
