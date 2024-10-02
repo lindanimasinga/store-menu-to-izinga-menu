@@ -95,8 +95,7 @@ public class Order extends BaseModel {
     }
 
     public double getTotalAmount() {
-        return BigDecimal.valueOf(serviceFee + basket.getItems().stream()
-                .mapToDouble(BasketItem::getTotalPrice).sum() + (!freeDelivery && shippingData != null ? shippingData.getFee() : 0))
+        return BigDecimal.valueOf(serviceFee + basket.getTotalPrice() + (!freeDelivery && shippingData != null ? shippingData.getFee() : 0))
                 .setScale(2, RoundingMode.HALF_EVEN)
                 .doubleValue();
     }

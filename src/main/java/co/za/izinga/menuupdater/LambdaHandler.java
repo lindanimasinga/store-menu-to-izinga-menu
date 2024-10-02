@@ -13,7 +13,7 @@ public class LambdaHandler implements RequestHandler<Map<String,String>, String>
         {
             try {
                 Application.main(null);
-            } catch (IOException e) {
+            } catch (IOException | InterruptedException e) {
                 e.printStackTrace();
                 return "500 Fail";
             }

@@ -24,6 +24,7 @@ public class UserProfile extends Profile {
     public enum SignUpReason {
         DELIVERY_DRIVER,
         SELL,
-        BUY
+        BUY,
+        LICENSING
     }
 }

@@ -16,7 +16,7 @@ public class StreamLambdaHandler implements RequestHandler<Map<String,String>, S
         String response = new String("200 OK");
         try {
             Application.main(new String[]{});
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
             logger.log("ERROR:" + e.getMessage());
         }

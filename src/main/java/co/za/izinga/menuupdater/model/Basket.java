@@ -25,4 +25,8 @@ public class Basket {
     public void setItems(List<BasketItem> items) {
         this.items = items;
     }
+
+    public Double getTotalPrice() {
+        return getItems().stream().mapToDouble(BasketItem::getTotalPrice).sum();
+    }
 }

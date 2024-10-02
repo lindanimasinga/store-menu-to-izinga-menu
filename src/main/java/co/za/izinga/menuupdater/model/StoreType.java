@@ -6,5 +6,7 @@ public enum StoreType {
     CLOTHING,
     SALON,
     CAR_WASH,
-    TIPS
+    TIPS,
+    LICENSING,
+    MOVERS
 }
