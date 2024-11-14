@@ -38,7 +38,7 @@ public class IzingaService {
             Application.client.newCall(request).execute().close();
 
             //update promotions
-            if (steersStore.isStoreOffline() || promos.contains(steersStore.getFranchiseName())) return false;
+            if (!steersStore.isStoreOffline() || promos.contains(steersStore.getFranchiseName())) return false;
             steersStore.getStockList()
                     .stream()
                     .filter(IzingaService::isAPromo)

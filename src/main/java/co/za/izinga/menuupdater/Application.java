@@ -91,12 +91,14 @@ public class Application {
         getBulkExecute(shopStock, ((Map.Entry<String, Stock> stock) -> {
             return Optional.ofNullable(stock.getValue().getImages())
                     .filter(images -> !images.isEmpty())
-                    .map(images -> images.get(0)).map(oldUrl -> {
+                    .map(images -> images.get(0))
+                    .map(oldUrl -> {
                         var newUrl = oldUrl.contains("amazonaws") ? oldUrl.replace("AF_SOUTH_1", "af-south-1") :
                                 convertAndUploadImages(stock.getKey(), stock.getValue().getImages().get(0));
                         stock.getValue().setImages(List.of(newUrl));
                         return newUrl;
-                    }).orElse("");
+                    })
+                    .orElse("");
         }));
 
         log.info("Update stores with new image urls");

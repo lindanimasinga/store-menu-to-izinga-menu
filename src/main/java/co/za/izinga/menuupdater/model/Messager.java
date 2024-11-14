@@ -17,13 +17,15 @@ public class Messager extends BaseModel {
     public Messager(@NotEmpty(message = "Messenger name not valid") String name,
                     @DecimalMin(value = "0.001", message = "delivery price must be greater than or equal to 0.001") double standardDeliveryPrice,
                     @DecimalMin(value = "0.1", message = "Distance must be greater than or equal to 0.1km") double standardDeliveryKm,
-                    @DecimalMin(value = "0.01", message = "ratePerKm must be greater than or equal to 0.01") double ratePerKm
-                    ) {
+                    @DecimalMin(value = "0.01", message = "ratePerKm must be greater than or equal to 0.01") double ratePerKm) {
         super();
         this.name = name;
         this.standardDeliveryPrice = standardDeliveryPrice;
         this.standardDeliveryKm = standardDeliveryKm;
         this.ratePerKm = ratePerKm;
+    }
+
+    public Messager() {
     }
 
     public String getName() {
