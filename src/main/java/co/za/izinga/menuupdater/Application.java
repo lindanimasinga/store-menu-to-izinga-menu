@@ -75,14 +75,14 @@ public class Application {
         final List<StoreProfile> izingaStores = mapper.readValue(responseBodyBytes, new TypeReference<List<StoreProfile>>() {
                 })
                 .stream()
-                .filter(store -> !store.getName().toLowerCase().contains("shoprite")
-                        && !store.getName().toLowerCase().contains("medirite")
-                        && !store.getName().toLowerCase().contains("izinga mencare"))
+                .filter(store -> !(store.getName().toLowerCase().contains("shoprite")
+                        || store.getName().toLowerCase().contains("medirite")
+                        || store.getName().toLowerCase().contains("izinga mencare")))
                 .toList();
 
 
         log.info("Starting menu update....");
-        getBulkExecute(izingaStores.stream(), Application::updateStore);
+            getBulkExecute(izingaStores.stream(), Application::updateStore);
 
         log.info("waiting for s3 image upload completion");
         Stream<Map.Entry<String, Stock>> shopStock = izingaStores.stream()

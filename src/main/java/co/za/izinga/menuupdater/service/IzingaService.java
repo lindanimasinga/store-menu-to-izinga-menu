@@ -24,6 +24,7 @@ public class IzingaService {
 
     public static boolean updateStoreOnIzinga(StoreProfile steersStore) {
         try {
+            steersStore.setScheduledDeliveryAllowed(false);
             //sort stock so that it appears correctly on the app, promos first
             ArrayList<Stock> sorted = new ArrayList<>(steersStore.getStockList());
             steersStore.setStockList(new HashSet<>(sorted));
