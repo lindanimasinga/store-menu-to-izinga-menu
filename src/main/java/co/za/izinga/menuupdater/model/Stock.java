@@ -88,7 +88,9 @@ public class Stock {
     }
 
     public void setImages(List<String> images) {
-        this.images = images;
+        if (this.images == null || this.images.isEmpty()) {
+            this.images = images;
+        }
     }
 
     public List<SelectionOption> getMandatorySelection() {
