@@ -25,7 +25,7 @@ public class ShopriteToIzinga {
         var page = 0;
         do {
             hasNextPage = loadWWMenu(page++, driver, stockList);
-        } while (hasNextPage && page <= 20);
+        } while (hasNextPage && page <= 50);
 
         store.setStockList(stockList);
         driver.quit();
@@ -33,7 +33,7 @@ public class ShopriteToIzinga {
 
     public static boolean loadWWMenu(int page, WebDriver driver, Set<Stock> stockList) {
 
-        driver.get("https://www.shoprite.co.za/c-2256/All-Departments?q=%3Arelevance%3AallCategories%3Afresh_food%3AallCategories%3Afood%3AallCategories%3Adrinks%3AallCategories%3Amedicine%3AbrowseAllStoresFacetOff%3AbrowseAllStoresFacetOff&page=" + page);
+        driver.get("https://www.shoprite.co.za/c-2256/All-Departments?q=%3Arelevance%3AallCategories%3Afresh_food%3AallCategories%3Afood%3AallCategories%3Adrinks%3AallCategories%3Amedicine%3AallCategories%3Ahealth_and_beauty%3AallCategories%3Ahousehold%3AallCategories%3Achips_snacks_and_popcorn%3AallCategories%3Aspices%3AallCategories%3Acooking_ingredients%3AallCategories%3Afrozen_desserts_ice_cream_and_ice%3AallCategories%3Acheese%3AbrowseAllStoresFacetOff%3AbrowseAllStoresFacetOff&page=" + page);
 
         List<WebElement> products = driver.findElements(By.cssSelector(".product-frame"));
 

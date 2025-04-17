@@ -44,6 +44,7 @@ public class StoreProfile extends Profile implements GeoPoint {
     private double ratePerKm;
     private String franchiseName;
     private String externalId;
+    private boolean hasPaymentAgreement;
 
     public StoreProfile() {
         super();
@@ -362,6 +363,14 @@ public class StoreProfile extends Profile implements GeoPoint {
 
     public void setExternalId(String externalId) {
         this.externalId = externalId;
+    }
+
+    public boolean getHasPaymentAgreement() {
+        return hasPaymentAgreement;
+    }
+
+    public void setHasPaymentAgreement(boolean hasPaymentAgreement) {
+        this.hasPaymentAgreement = hasPaymentAgreement;
     }
 
     public enum AVAILABILITY {
